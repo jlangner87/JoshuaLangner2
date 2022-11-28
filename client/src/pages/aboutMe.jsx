@@ -1,8 +1,10 @@
 import { NavLink } from 'react-router-dom'
+import { HashLink } from 'react-router-hash-link'
 import Contact from '../components/contact'
 import header from '../elements/me_header.png'
 import family from '../elements/family_transparent.png'
 import home from '../elements/home_icon.png'
+import toTop from '../elements/totop.png'
 import javascript from '../elements/javascript.png'
 import reactLogo from '../elements/react.png'
 import mongodb from '../elements/mongo.png'
@@ -20,7 +22,7 @@ function AboutMe() {
   return (
     <div className="page">
             <NavLink to='/'> <img src={home} alt="home icon" className='icon'/> </NavLink>
-      <img src={header} alt="headshot and title Joshua Langner Software engineer" className='header_logo' />
+      <img src={header} alt="headshot and title Joshua Langner Software engineer" className='header_logo' id='#top'/>
       <div className='page_content'>
         <h1 className='page_content_header'>About Me</h1>
         <h2 className='page_content_subheader'>An Overview</h2>
@@ -34,6 +36,7 @@ function AboutMe() {
         <img src={family} alt="family photo of Joshua, his wife, their son and two daughters" className='family_photo'/>
       </div>
       <div className='page_content'>
+        <HashLink smooth to='#top'> <img src={toTop} alt="to top icon" className='icon'/></HashLink>
         <h1 className='page_content_header'>Skills</h1>
         <div className='skills_container'>
           <img className='small_logo' src={html} alt="h.t.m.l. 5 logo" />
@@ -81,6 +84,7 @@ function AboutMe() {
             <p className='skill'>Video &#40;Final Cut Pro&#41;</p>
             <p className='skill'>Video &#40;Adobe Premiere Pro&#41;</p>
             <p className='skill'>OS Troubleshooting</p>
+            <p className='skill'>Electronics Repair</p>
           </div>
           <div className='skill_list'>
             <h3 className='skill_header'>Personal Skills</h3>
@@ -93,9 +97,24 @@ function AboutMe() {
         </div>
         <h3 className='skill_header'>Download my resume here.</h3>
         <a href={resumePDF} download><img className='icon2' src={resume} alt="download resume icon" /></a>
-        
       </div>
+      <div className='page_content'>
+        <HashLink smooth to='#top'> <img src={toTop} alt="to top icon" className='icon'/></HashLink>
+        <h1 className='page_content_header'>Project Portfolio</h1>
+        <h2 className='page_content_subheader'>This is content</h2>
+        <h2 className='page_content_subheader'>This is content</h2>
+        <h2 className='page_content_subheader'>This is content</h2>
+        <h2 className='page_content_subheader'>This is content</h2>
+        <h2 className='page_content_subheader'>This is content</h2>
+        <h2 className='page_content_subheader'>This is content</h2>
+        <h2 className='page_content_subheader'>This is content</h2>
+        <h2 className='page_content_subheader'>This is content</h2>
+        </div>
+      <div className='page_content'>
+      <HashLink smooth to='#top'> <img src={toTop} alt="to top icon" className='icon'/> </HashLink>
+        <h1 className='page_content_header'>Connect With Me!</h1>
       <Contact/>
+      </div>
     </div>
   )
 }

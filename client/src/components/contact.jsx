@@ -8,10 +8,8 @@ import linkedinLogo from '../elements/linklogo.png'
 function Contact() {
   return (
     <div className="contact_card">
-      <div className='page_content'>
-      <h1 className='page_content_header'>Conect with Me</h1>
-    
-      </div>
+      <div className='page_content'>    
+     </div>
       <h3 className='skill_header'>Send me a message here!</h3>
       <div className='contact_form'>
         <form>
