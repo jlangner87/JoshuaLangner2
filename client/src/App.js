@@ -11,10 +11,10 @@ function App() {
     <div className="App">
       <Routes>
         <Route path="/" element={<Splash />} />
-        <Route path="/about_me" element={<AboutMe />} />
+        <Route path="/portfolio" element={<AboutMe />} />
         <Route path="/business_sites" element={<BusinessSites />} />
         <Route path="/event_pages" element={<EventPages />} />
-        <Route path="/portfolios" element={<Portfolios />} />
+        <Route path="/portfolios_pages" element={<Portfolios />} />
       </Routes>
     </div>
   )

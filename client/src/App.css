@@ -1,14 +1,18 @@
 * {
-  text-align: center;
   margin: 0 auto;
   background-color: #222222 ;
+}
+
+body {
+  text-align: center;
   color: #EEE5E9;
+
 }
 
 .icon {
-  width: 50px;
+  width: 40px;
   float: left;
-  margin-left: 15px;
+  margin: 25px;
 }
 
 .header_logo {
@@ -34,4 +38,15 @@ width: 100%;
   -webkit-box-shadow:0px 0px 29px 0px rgba(153,247,170,0.7);
   -moz-box-shadow: 0px 0px 29px 0px rgba(153,247,170,0.7);
   box-shadow: 0px 0px 29px 0px rgba(153,247,170,0.7);
+}
+
+.skills_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 85%;
+}
+
+.skill_list {
+  text-align: left;
 }
