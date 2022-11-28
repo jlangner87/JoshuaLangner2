@@ -17,6 +17,12 @@ import html from '../elements/html.png'
 import css from '../elements/css.png'
 import resume from '../elements/resume.png'
 import resumePDF from '../elements/JLangner_resume.pdf'
+import alice from '../project_images/alice.png'
+import dice from '../project_images/dice.png'
+import lindsay from '../project_images/lindsay.png'
+import recipes from '../project_images/recipes.png'
+import rpsvue from '../project_images/rpsvue.png'
+import wikibean from '../project_images/wikibean.png'
 
 function AboutMe() {
   return (
@@ -100,16 +106,16 @@ function AboutMe() {
       </div>
       <div className='page_content'>
         <HashLink smooth to='#top'> <img src={toTop} alt="to top icon" className='icon'/></HashLink>
-        <h1 className='page_content_header'>Project Portfolio</h1>
-        <h2 className='page_content_subheader'>This is content</h2>
-        <h2 className='page_content_subheader'>This is content</h2>
-        <h2 className='page_content_subheader'>This is content</h2>
-        <h2 className='page_content_subheader'>This is content</h2>
-        <h2 className='page_content_subheader'>This is content</h2>
-        <h2 className='page_content_subheader'>This is content</h2>
-        <h2 className='page_content_subheader'>This is content</h2>
-        <h2 className='page_content_subheader'>This is content</h2>
+        <h1 className='page_content_header'>Project Portolio</h1>
+        <div className='carousel'>
+          <img src={wikibean} alt="wikibean app photo" className='project_image' />
+          <img src={lindsay} alt="team lindsay app photo" className='project_image' />
+          <img src={recipes} alt="recipes for me app photo" className='project_image' />
+          <img src={dice} alt="dice roller app photo" className='project_image' />
+          <img src={alice} alt="alice's adventures in python photo" className='project_image' />
+          <img src={rpsvue} alt="rock paper scissors in vue photo" className='project_image' />
         </div>
+      </div>
       <div className='page_content'>
       <HashLink smooth to='#top'> <img src={toTop} alt="to top icon" className='icon'/> </HashLink>
         <h1 className='page_content_header'>Connect With Me!</h1>

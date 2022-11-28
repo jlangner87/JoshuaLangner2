@@ -79,6 +79,14 @@ width: 100%;
   background-color: transparent;
 }
 
+.project_image {
+  width: 60%;
+}
+
+
+
+
+
 .skills_container {
   display: flex;
   flex-direction: row;
@@ -91,12 +99,14 @@ width: 100%;
   width: 60px;
   padding: 20px;
 }
-.skill_list {
+.sk
+ill_list {
   text-align: left;
   font-family: 'Libre Baskerville', serif;
   padding-bottom: 15px;
   padding-top: 15px;
 }
+
 .skill_header {
   font-family: 'Raleway', sans-serif;
   text-transform: uppercase;
@@ -109,7 +119,7 @@ width: 100%;
 }
 
 .icon2 {
-  width: 125px;
+  width: 100px;
   padding-bottom: 20px;
 }
 
@@ -137,4 +147,69 @@ form {
 .social_icon {
   width: 90px;
   padding: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+.carousel {
+  width: 85%;
+}
+
+@keyframes display {
+  0% {
+    transform: translateX(200px);
+    opacity: 0;
+  }
+  10% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  20% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  30% {
+    transform: translateX(-200px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(-200px);
+    opacity: 0;
+  }
+}
+
+.carousel {
+  position: relative;
+}
+
+.carousel > .project_image {
+  position: absolute;
+  opacity: 0;
+  animation: display 10s infinite;
+}
+
+.project_image:nth-child(2) {
+  animation-delay: 2s;
+}
+.project_image:nth-child(3) {
+  animation-delay: 4s;
+}
+.project_image:nth-child(4) {
+  animation-delay: 6s;
+}
+.project_image:nth-child(5) {
+  animation-delay: 8s;
+}
+.project_image:nth-child(6) {
+  animation-delay: 10s;
+}
+.project_image:nth-child(7) {
+  animation-delay: 12s;
 }
