@@ -1,4 +1,31 @@
 * {
-  background-color: rgb(191, 187, 187);
   text-align: center;
+  margin: 0 auto;
+  background-color: #222222 ;
+  color: #EEE5E9;
+}
+
+.header_logo {
+  width: 100%;
+}
+.splash_nav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 85%;
+}
+
+.nav_tile {
+  width: 350px;
+  margin: 10px;
+  border-radius: 10%;
+  border: 1px solid #EEE5E9;
+}
+
+.nav_tile:hover {
+  filter: brightness(130%);
+  -webkit-box-shadow:0px 0px 29px 0px rgba(153,247,170,0.7);
+  -moz-box-shadow: 0px 0px 29px 0px rgba(153,247,170,0.7);
+  box-shadow: 0px 0px 29px 0px rgba(153,247,170,0.7);
 }
