@@ -1,7 +1,16 @@
 import { NavLink } from 'react-router-dom'
+import Contact from '../components/contact'
 import header from '../elements/me_header.png'
 import family from '../elements/family_transparent.png'
 import home from '../elements/home_icon.png'
+import javascript from '../elements/javascript.png'
+import reactLogo from '../elements/react.png'
+import mongodb from '../elements/mongo.png'
+import psql from '../elements/postgresql.png'
+import node from '../elements/node.png'
+import python from "../elements/python.png"
+import typescript from '../elements/typescript.png'
+import vue from '../elements/vue.png'
 
 function AboutMe() {
   return (
@@ -22,6 +31,16 @@ function AboutMe() {
       </div>
       <div className='page_content'>
         <h1 className='page_content_header'>Skills</h1>
+        <div className='skills_container'>
+          <img className='small_logo' src={javascript} alt="javascript logo" />
+          <img className='small_logo' src={typescript} alt="typescript logo" />
+          <img className='small_logo' src={python} alt="python logo" />
+          <img className='small_logo' src={reactLogo} alt="react logo" />
+          <img className='small_logo' src={vue} alt="vue logo" />
+          <img className='small_logo' src={mongodb} alt="mongo d.b. logo" />
+          <img className='small_logo' src={psql} alt="postgres s.q.l. logo" />
+          <img className='small_logo' src={node} alt="node j.s. logo" />
+        </div>
         <div className='skills_container'>
           <div className='skill_list'>
             <h2 className='page_content_subheader'>Languages</h2>
@@ -64,9 +83,9 @@ function AboutMe() {
             <p className='skill'>Cross-Functional Collaboration</p>
             <p className='skill'>Navigating Change</p>
             <p className='skill'>Listening with Empathy</p>
-
           </div>
         </div>
+        <Contact/>
       </div>
     </div>
   )
