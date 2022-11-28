@@ -5,8 +5,14 @@
   color: #EEE5E9;
 }
 
+.icon {
+  width: 50px;
+  float: left;
+  margin-left: 15px;
+}
+
 .header_logo {
-  width: 100%;
+width: 100%;
 }
 .splash_nav {
   display: flex;

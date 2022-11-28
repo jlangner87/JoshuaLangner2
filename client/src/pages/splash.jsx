@@ -1,5 +1,5 @@
 import { NavLink } from 'react-router-dom'
-import header from '../elements/banner.png'
+import header from '../elements/banner2.png'
 import aboutNav from '../elements/aboutme.png'
 import businessNav from '../elements/business.png'
 import weddingNav from '../elements/weddings.png'
