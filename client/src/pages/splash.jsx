@@ -8,7 +8,7 @@ import portfoloNav from '../elements/portfolios.png'
 function Splash() {
   return (
     <div className="page">
-      <img src={header} alt="octopus in curly braces logo. joshua langner web developer" className='header_logo'/>
+      <img src={header} alt="octopus in curly braces logo. joshua langner web developer" className='splash_header_logo'/>
       <div className='splash_nav'>
       <NavLink to='/portfolio'><img src={aboutNav} alt="about me resume and portfolo" className='nav_tile'/></NavLink>
       <NavLink to='/business_sites'><img src={businessNav} alt="business websites" className='nav_tile'/></NavLink>

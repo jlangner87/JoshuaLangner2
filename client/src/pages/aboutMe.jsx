@@ -39,23 +39,13 @@ function AboutMe() {
           I thrive in diverse collaborative cultures where continuous improvement, creativity, and curiosity are a driving force.</p>
         <h2 className='page_content_subheader'>A Personal Note</h2>
         <p className='page_content_body'>Aside from a developer, I am a husband and father living in rural Iowa. My passion hobby is theater. I am a playwright, director, and actor. It is fun, but I have gained so many transferrable skills in teater. I have learned how to effectively work with a diverse group to deliver the best possible product. I have learned the importance of giving my best to my areas of contribution. I have learned the process of taking an abstract concept and transforming it into a tangible product for the audience to enjoy.</p>
+        <h3 className='page_content_subheader'>resume</h3>
+        <p className='page_content_body'>Download a copy of my resume here. <br/> <a href={resumePDF} download><img className='icon2' src={resume} alt="download resume icon" /></a></p>    
         <img src={family} alt="family photo of Joshua, his wife, their son and two daughters" className='family_photo'/>
       </div>
       <div className='page_content'>
         <HashLink smooth to='#top'> <img src={toTop} alt="to top icon" className='icon'/></HashLink>
         <h1 className='page_content_header'>Skills</h1>
-        <div className='skills_container'>
-          <img className='small_logo' src={html} alt="h.t.m.l. 5 logo" />
-          <img className='small_logo' src={css} alt="c.s.s. 3 logo" />
-          <img className='small_logo' src={javascript} alt="javascript logo" />
-          <img className='small_logo' src={typescript} alt="typescript logo" />
-          <img className='small_logo' src={python} alt="python logo" />
-          <img className='small_logo' src={reactLogo} alt="react logo" />
-          <img className='small_logo' src={vue} alt="vue logo" />
-          <img className='small_logo' src={mongodb} alt="mongo d.b. logo" />
-          <img className='small_logo' src={psql} alt="postgres s.q.l. logo" />
-          <img className='small_logo' src={node} alt="node j.s. logo" />
-        </div>
         <div className='skills_container'>
           <div className='skill_list'>
             <h3 className='skill_header'>Languages</h3>
@@ -101,9 +91,19 @@ function AboutMe() {
             <p className='skill'>Listening with Empathy</p>
           </div>
         </div>
-        <h3 className='skill_header'>Download my resume here.</h3>
-        <a href={resumePDF} download><img className='icon2' src={resume} alt="download resume icon" /></a>
-      </div>
+        <div className='skills_container'>
+          <img className='small_logo' src={html} alt="h.t.m.l. 5 logo" />
+          <img className='small_logo' src={css} alt="c.s.s. 3 logo" />
+          <img className='small_logo' src={javascript} alt="javascript logo" />
+          <img className='small_logo' src={typescript} alt="typescript logo" />
+          <img className='small_logo' src={python} alt="python logo" />
+          <img className='small_logo' src={reactLogo} alt="react logo" />
+          <img className='small_logo' src={vue} alt="vue logo" />
+          <img className='small_logo' src={mongodb} alt="mongo d.b. logo" />
+          <img className='small_logo' src={psql} alt="postgres s.q.l. logo" />
+          <img className='small_logo' src={node} alt="node j.s. logo" />
+        </div>
+        </div>
       <div className='page_content'>
         <HashLink smooth to='#top'> <img src={toTop} alt="to top icon" className='icon'/></HashLink>
         <h1 className='page_content_header'>Project Portolio</h1>
@@ -120,6 +120,7 @@ function AboutMe() {
       <HashLink smooth to='#top'> <img src={toTop} alt="to top icon" className='icon'/> </HashLink>
         <h1 className='page_content_header'>Connect With Me!</h1>
       <Contact/>
+      
       </div>
     </div>
   )
