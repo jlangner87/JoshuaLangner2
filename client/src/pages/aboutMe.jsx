@@ -27,7 +27,7 @@ function AboutMe() {
             <NavLink to='/'> <img src={home} alt="home icon" className='icon'/> </NavLink>
       <img src={header} alt="headshot and title Joshua Langner Software engineer" className='header_logo' id='#top'/>
       <div className='page_content'>
-        <h1 className='page_content_header'>About Me</h1>
+        <h1 className='page_content_header'>&#60; About Me &#47;&#62;</h1>
         <h2 className='page_content_subheader'>An Overview</h2>
         <p className='page_content_body'>I am a software engineer with a background in technical support, sales, and leadership in the electronics and cellular industry.
           <br/>
@@ -50,7 +50,7 @@ function AboutMe() {
       </div>
       <div className='page_content'>
         <HashLink smooth to='#top'> <img src={toTop} alt="to top icon" className='icon'/></HashLink>
-        <h1 className='page_content_header'>Skills</h1>
+        <h1 className='page_content_header'>&#60; Skills &#47;&#62;</h1>
         <div className='skills_container'>
           <div className='skill_list'>
             <h3 className='skill_header'>Languages</h3>
@@ -112,12 +112,12 @@ function AboutMe() {
         </div>
       <div className='page_content'>
         <HashLink smooth to='#top'> <img src={toTop} alt="to top icon" className='icon'/></HashLink>
-        <h1 className='page_content_header'>Project Portolio</h1>
+        <h1 className='page_content_header'>&#60; Project Portfolio &#47;&#62;</h1>
         <SlideShow/>
       </div>
       <div className='page_content'>
       <HashLink smooth to='#top'> <img src={toTop} alt="to top icon" className='icon'/> </HashLink>
-        <h1 className='page_content_header'>Connect With Me!</h1>
+        <h1 className='page_content_header'>&#60; Connect with Me &#47;&#62;</h1>
       <Contact/>
       
       </div>

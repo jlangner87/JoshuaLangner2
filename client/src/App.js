@@ -11,6 +11,7 @@ import Lindsay from './pages/project_pages/lindsay'
 import Recipes from './pages/project_pages/recipes'
 import WikiBean from './pages/project_pages/wikibean'
 import RpsVue from './pages/project_pages/rpsvue'
+import Footer from './components/footer'
 
 function App() {
   return (
@@ -26,7 +27,10 @@ function App() {
         <Route path="/portfolio/order_form" element={<Lindsay />} />
         <Route path="/portfolio/PERN_recipes" element={<Recipes />} />
         <Route path="/portfolio/PERN_wikibean" element={<WikiBean />} />
+        <Route path="/portfolio/vue_rock-paper-scissors" element={<RpsVue />} />
       </Routes>
+      <br></br>
+      <Footer />
     </div>
   )
 }
