@@ -10,6 +10,7 @@
   margin: 20px;
   text-align: center;
   border-radius: 20px;
+  overflow: hidden;
   position: relative;
 }
 .slides {
@@ -36,6 +37,8 @@
   transform: scale(1);
   scroll-snap-align: center;
 }
+
+
 
 .slide a {
   position: absolute;
@@ -73,11 +76,16 @@ a.slide__next{
 }
 
 @media only screen and (max-width: 580px){
+  .slides {
+    margin-right: 15px;
+    margin-left: -15px;
+  }
+
   .slide a {
     position: absolute;
     top: 48%;
-    width: 25px;
-    height: 25px;
+    width: 15px;
+    height: 15px;
     border: solid #EEE5E9;
     border-width: 0 3px 3px 0;
     padding: 3px;
@@ -88,8 +96,8 @@ a.slide__next{
     border: solid #222222;
     position: absolute;
     top: 48%;
-    width: 25px;
-    height: 25px;
+    width: 15px;
+    height: 15px;
     border-width: 0 3px 3px 0;
     padding: 3px;
     box-sizing: border-box;
