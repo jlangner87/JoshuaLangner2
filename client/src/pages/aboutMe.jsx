@@ -1,5 +1,6 @@
 import { NavLink } from 'react-router-dom'
 import { HashLink } from 'react-router-hash-link'
+import SlideShow from '../components/slides'
 import Contact from '../components/contact'
 import header from '../elements/me_header.png'
 import family from '../elements/family_transparent.png'
@@ -17,14 +18,10 @@ import html from '../elements/html.png'
 import css from '../elements/css.png'
 import resume from '../elements/resume.png'
 import resumePDF from '../elements/JLangner_resume.pdf'
-import alice from '../project_images/alice.png'
-import dice from '../project_images/dice.png'
-import lindsay from '../project_images/lindsay.png'
-import recipes from '../project_images/recipes.png'
-import rpsvue from '../project_images/rpsvue.png'
-import wikibean from '../project_images/wikibean.png'
 
 function AboutMe() {
+
+
   return (
     <div className="page">
             <NavLink to='/'> <img src={home} alt="home icon" className='icon'/> </NavLink>
@@ -92,6 +89,7 @@ function AboutMe() {
           </div>
         </div>
         <div className='skills_container'>
+          
           <img className='small_logo' src={html} alt="h.t.m.l. 5 logo" />
           <img className='small_logo' src={css} alt="c.s.s. 3 logo" />
           <img className='small_logo' src={javascript} alt="javascript logo" />
@@ -107,14 +105,7 @@ function AboutMe() {
       <div className='page_content'>
         <HashLink smooth to='#top'> <img src={toTop} alt="to top icon" className='icon'/></HashLink>
         <h1 className='page_content_header'>Project Portolio</h1>
-        <div className='carousel'>
-          <img src={wikibean} alt="wikibean app photo" className='project_image' />
-          <img src={lindsay} alt="team lindsay app photo" className='project_image' />
-          <img src={recipes} alt="recipes for me app photo" className='project_image' />
-          <img src={dice} alt="dice roller app photo" className='project_image' />
-          <img src={alice} alt="alice's adventures in python photo" className='project_image' />
-          <img src={rpsvue} alt="rock paper scissors in vue photo" className='project_image' />
-        </div>
+        <SlideShow/>
       </div>
       <div className='page_content'>
       <HashLink smooth to='#top'> <img src={toTop} alt="to top icon" className='icon'/> </HashLink>

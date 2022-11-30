@@ -92,16 +92,6 @@ width: 40%
   background-color: transparent;
 }
 
-.carousel {
-  padding: 30px;
-}
-
-.project_image {
-  width: 40%;
-  margin: 10px;
-  border: 1px solid #222222;
-}
-
 .skills_container {
   display: flex;
   flex-direction: row;
