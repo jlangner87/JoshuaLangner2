@@ -37,7 +37,15 @@ function AboutMe() {
         <h2 className='page_content_subheader'>A Personal Note</h2>
         <p className='page_content_body'>Aside from a developer, I am a husband and father living in rural Iowa. My passion hobby is theater. I am a playwright, director, and actor. It is fun, but I have gained so many transferrable skills in teater. I have learned how to effectively work with a diverse group to deliver the best possible product. I have learned the importance of giving my best to my areas of contribution. I have learned the process of taking an abstract concept and transforming it into a tangible product for the audience to enjoy.</p>
         <h3 className='page_content_subheader'>resume</h3>
-        <p className='page_content_body'>Download a copy of my resume here. <br/> <a href={resumePDF} download><img className='icon2' src={resume} alt="download resume icon" /></a></p>    
+        <p className='page_content_body'>Download a copy of my resume here. <br/>
+          <div class="btn btn-primary tooltip">         <a href={resumePDF} download><img className='icon2' src={resume} alt="download resume icon" /></a>
+            <div class="top">
+              <h3>Download Resume</h3>
+              <p>Created: 12/01/2022</p>
+              <i></i>
+            </div>
+          </div>
+        </p>    
         <img src={family} alt="family photo of Joshua, his wife, their son and two daughters" className='family_photo'/>
       </div>
       <div className='page_content'>
