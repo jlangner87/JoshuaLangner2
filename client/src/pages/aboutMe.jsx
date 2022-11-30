@@ -97,7 +97,6 @@ function AboutMe() {
           </div>
         </div>
         <div className='skills_container'>
-          
           <img className='small_logo' src={html} alt="h.t.m.l. 5 logo" />
           <img className='small_logo' src={css} alt="c.s.s. 3 logo" />
           <img className='small_logo' src={javascript} alt="javascript logo" />
@@ -114,6 +113,7 @@ function AboutMe() {
         <HashLink smooth to='#top'> <img src={toTop} alt="to top icon" className='icon'/></HashLink>
         <h1 className='page_content_header'>&#60; Project Portfolio &#47;&#62;</h1>
         <SlideShow/>
+        <p className='space'>.</p>
       </div>
       <div className='page_content'>
       <HashLink smooth to='#top'> <img src={toTop} alt="to top icon" className='icon'/> </HashLink>

@@ -5,7 +5,7 @@
 body {
   text-align: center;
   color: #EEE5E9;
-  background-color: #222222 ;
+  background-color: #222222;
 }
 
 .tooltip {
@@ -78,11 +78,11 @@ width: 40%
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
-  width: 85%;
+  width: 95%;
 }
 
 .nav_tile {
-  width: 350px;
+  width: 325px;
   margin: 10px;
   border-radius: 10%;
   border: 1px solid #EEE5E9;
@@ -93,6 +93,11 @@ width: 40%
   -webkit-box-shadow:0px 0px 29px 0px rgba(153,247,170,0.7);
   -moz-box-shadow: 0px 0px 29px 0px rgba(153,247,170,0.7);
   box-shadow: 0px 0px 29px 0px rgba(153,247,170,0.7);
+}
+
+.space {
+  color: transparent;
+  font-size: 50px;
 }
 
 .page_content {
@@ -108,13 +113,13 @@ width: 40%
   font-family: 'Raleway', sans-serif;
   text-transform: uppercase;
   font-size: 48px;
-  padding: 15px;
+  padding: 10px;
   color: #99F7AB;
   width: fit-content;
   margin: 0 auto;
   background-color: #222222;
-  border-top: 20px solid #EEE5E9;
-  border-bottom: 20px solid #EEE5E9;
+  border-top: 45px solid #EEE5E9;
+  border-bottom: 30px solid #EEE5E9;
 }
 
 .page_content_subheader {
@@ -125,12 +130,12 @@ width: 40%
   text-align: left;
   padding: 10px;
   color: #73009d;
-
 }
 
 .contact_header {
   font-family: 'Libre Baskerville', serif;
-  font-size: 26px;
+  font-size: 22px;
+  font-style: italic;
   padding: 15px;
   color: #222222;
 }
@@ -177,6 +182,7 @@ width: 40%
 
 .skill {
   padding-bottom: 8px;
+  font-size: 12px;
 }
 
 .icon2 {
@@ -203,7 +209,8 @@ form {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
-  padding-bottom: 25px;
+  border-top: 1px solid #222222;
+  margin-top: 25px;
 }
 
 .social_icon {
@@ -221,6 +228,7 @@ form {
   bottom: 0;
   left: 0;
   border-top: 1px solid #EEE5E9;
+  margin-top: 75px;
 }
 
 
@@ -248,20 +256,22 @@ form {
   }
   
   .page_content {
-    width: 90%;
+    width: 95%;
+    font-size: 12px;
     margin: 0 auto;
     margin-top: 30px;
   }
   
   .page_content_header {
-    font-size: 36px;
-    color: #73009d;
-    width: 95%;
+    font-size: 24px;
+    width: 60%;
+    border-top: 10px solid #EEE5E9;
+    border-bottom: 10px solid #EEE5E9;
   }
   
   .page_content_subheader {
     width: 95%;
-    font-size: 24px;
+    font-size: 18px;
     text-align: left;
     padding: 10px;
   }
@@ -278,7 +288,7 @@ form {
   
   .family_photo {
     width: 80%;
-    margin-top: -50px;
+    margin-top: -40px;
   }
   
   .carousel {
@@ -295,7 +305,7 @@ form {
   }
 
   .skill_list {
-    margin-left: 10px;
+    margin-left: 25px;
   }
   
   .small_logo {
@@ -324,11 +334,21 @@ form {
   .socials_container {
     width: 95%;
     padding-bottom: 15px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
   }
   
   .social_icon {
     width: 60px;
     padding: 15px 0 15px 0;
+
+  }
+
+  .footer {
+    font-size: 10px;
+    border-top: none;
   }
 
 }

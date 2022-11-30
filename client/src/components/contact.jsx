@@ -121,15 +121,8 @@ function Contact() {
           <p>@jlangner87</p>
           <i></i>
         </div>
+      </div>  
       </div>
-
-
-        
-        
-      </div>
-
-
-      
     </div>
   )
 }
