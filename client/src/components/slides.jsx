@@ -23,7 +23,7 @@ function SlideShow() {
   
 
   <div className='slide_container'>
-  <NavLink to='/portfolio/PERN_wikibean'>
+  <NavLink to='/portfolio/order_form'>
   <h3 className='slide_title'>Team Lindsay</h3>
   <h4 className='slide_subtitle'>React Forms</h4>
   <img src={lindsay} alt="team lindsay app photo" className='slide'/>
@@ -33,7 +33,7 @@ function SlideShow() {
 
 
   <div className='slide_container'>
-  <NavLink to='/portfolio/PERN_wikibean'>
+  <NavLink to='/portfolio/PERN_recipes'>
   <h3 className='slide_title'>Recipes for Me</h3>
   <h4 className='slide_subtitle'>PERN Application</h4>
   <img src={recipes} alt="recipes for me app photo" className='slide'/>
@@ -43,7 +43,7 @@ function SlideShow() {
 
 
   <div className='slide_container'>
-  <NavLink to='/portfolio/PERN_wikibean'>
+  <NavLink to='/portfolio/rpg_dice'>
   <h3 className='slide_title'>RPG Dice Roller</h3>
   <h4 className='slide_subtitle'>Static React Application</h4>
   <img src={dice} alt="dice roller app photo" className='slide'/>
@@ -53,7 +53,7 @@ function SlideShow() {
 
 
   <div className='slide_container'>
-  <NavLink to='/portfolio/PERN_wikibean'>
+  <NavLink to='/portfolio/alice_python'>
   <h3 className='slide_title'>Alice's Adventures</h3>
   <h4 className='slide_subtitle'>CLI Game in Python</h4>
   <img src={alice} alt="alice's adventures in python photo" className='slide'/>
@@ -63,7 +63,7 @@ function SlideShow() {
 
 
   <div className='slide_container'>
-  <NavLink to='/portfolio/PERN_wikibean'>
+  <NavLink to='/portfolio/vue_rock-paper-scissors'>
   <h3 className='slide_title'>Rock Paper Scissors</h3>
   <h4 className='slide_subtitle'>Static Vue Application</h4>
   <img src={rpsvue} alt="rock paper scissors in vue photo" className='slide'/>
