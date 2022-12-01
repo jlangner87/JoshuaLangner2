@@ -48,7 +48,6 @@ h4{
   background-color: #E5E6E7; 
 }  
 #contact-form textarea {
-  width:100%;
   height: 150px;
 }
 #contact-form button[type="submit"] {
@@ -77,14 +76,24 @@ input:required, textarea:required {
   color: #E5E6E7;      
 }
 
-.contact_card {
-  margin-top: -50px;
-}
 @media only screen and (max-width: 580px) {
   #contact-form{
       font-size: 24px;
       padding: 5px 5px 20px 10px;
       width:95%;
       margin: 10px auto 10px auto
+  }
+
+  #contact-form input,  
+  #contact-form textarea { 
+  width:95%;
+} 
+  
+  #contact-form select {
+    width: 98%;
+
+}
+  #contact-form button[type="submit"] {
+    width:95%;
   }
 }

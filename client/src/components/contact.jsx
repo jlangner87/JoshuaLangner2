@@ -47,8 +47,6 @@ function Contact() {
 
   return (
     <div className="contact_card">
-      <div className='page_content'>    
-     </div>
       <h3 className='contact_header'>Send me a message here.</h3>
       <div className='contact_form'>
       <div id="contact-form">
@@ -85,15 +83,10 @@ function Contact() {
         <button onClick='handleMessage()' name="submit" type="submit" id="submit" >SEND</button> 
       </div>
       </form>
-  </div>
-
-
-
-        
+  </div> 
       </div>
       <h3 className='contact_header'>Or find me on any of these platforms.</h3>
       <div className='socials_container'>
-
       <div class="btn btn-primary tooltip"><a href='mailto: joshua.langner.dev@gmail.com'><img src={emailLogo} alt="email link logo" className='social_icon'/></a>
         <div class="top">
           <h3>Email</h3>
@@ -101,7 +94,7 @@ function Contact() {
           <i></i>
         </div>
       </div>
-      <div class="btn btn-primary tooltip">        <a href='https://www.linkedin.com/in/josh-langner/'><img src={linkedinLogo} alt="linked in link logo" className='social_icon'/></a>
+      <div class="btn btn-primary tooltip"><a href='https://www.linkedin.com/in/josh-langner/'><img src={linkedinLogo} alt="linked in link logo" className='social_icon'/></a>
         <div class="top">
           <h3>LinkedIn</h3>
           <p>@josh-langner</p>
