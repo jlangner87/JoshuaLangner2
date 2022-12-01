@@ -119,7 +119,6 @@ function AboutMe() {
       <HashLink smooth to='#top'> <img src={toTop} alt="to top icon" className='icon'/> </HashLink>
         <h1 className='page_content_header'>&#60; Connect with Me &#47;&#62;</h1>
       <Contact/>
-      
       </div>
     </div>
   )
