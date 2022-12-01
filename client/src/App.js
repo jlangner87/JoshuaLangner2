@@ -12,6 +12,8 @@ import Recipes from './pages/project_pages/recipes'
 import WikiBean from './pages/project_pages/wikibean'
 import RpsVue from './pages/project_pages/rpsvue'
 import Footer from './components/footer'
+import Caleb from './pages/project_pages/caleb'
+import Flashcards from './pages/project_pages/flashcards'
 
 function App() {
   return (
@@ -28,6 +30,8 @@ function App() {
         <Route path="/portfolio/PERN_recipes" element={<Recipes />} />
         <Route path="/portfolio/PERN_wikibean" element={<WikiBean />} />
         <Route path="/portfolio/vue_rock-paper-scissors" element={<RpsVue />} />
+        <Route path="/portfolio/teacher_portfolio" element={<Caleb />} />
+        <Route path="/portfolio/flashcards" element={<Flashcards />} />
       </Routes>
       <br></br>
       <Footer />

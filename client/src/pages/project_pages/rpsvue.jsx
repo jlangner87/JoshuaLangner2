@@ -11,7 +11,7 @@ function RpsVue() {
   return (
     <div className="page">
       <NavLink to='/portfolio'> <img src={home} alt="home icon" className='home_icon'/> </NavLink>
-      <h1 className='project_title'>Rock Paper Scissors</h1>
+      <h1 className='project_title' id='#top'>Rock Paper Scissors</h1>
       <h2 className='project_subtitle'>Static Vue Application</h2>
       <div className='project_attribute_container'>
         <p className='project_attribute'>Individual Project</p>
@@ -35,10 +35,10 @@ function RpsVue() {
       </div>
       </div>
       <div className='project_nav_container'>
-        <NavLink to='/portfolio/alice_python'>
+        <NavLink to='/portfolio/PERN_wikibean'>
           <img src={previous} alt="previous project icon" className='project_nav_icon'/>
         </NavLink>
-        <NavLink to='/portfolio/PERN_wikibean'>
+        <NavLink to='/portfolio/alice_python'>
           <img src={next} alt="previous project icon" className='project_nav_icon'/>
         </NavLink>
       </div>

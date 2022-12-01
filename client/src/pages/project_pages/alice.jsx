@@ -10,7 +10,7 @@ import next from './project_images/next.png'
 function Alice() {
   return (
     <div className="page">
-      <NavLink to='/portfolio'> <img src={home} alt="home icon" className='home_icon'/> </NavLink>
+      <NavLink smooth to='/portfolio'> <img src={home} alt="home icon" className='home_icon'/> </NavLink>
       <h1 className='project_title'>Alice's Adventures</h1>
       <h2 className='project_subtitle'>CLI GAME IN PYTHON</h2>
       <div className='project_attribute_container'>
@@ -32,10 +32,10 @@ function Alice() {
       </div>
       </div>
       <div className='project_nav_container'>
-        <NavLink to='/portfolio/rpg_dice'>
+        <NavLink to='/portfolio/vue_rock-paper-scissors'>
           <img src={previous} alt="previous project icon" className='project_nav_icon'/>
         </NavLink>
-        <NavLink to='/portfolio/vue_rock-paper-scissors'>
+        <NavLink to='/portfolio/PERN_recipes'>
           <img src={next} alt="previous project icon" className='project_nav_icon'/>
         </NavLink>
       </div>

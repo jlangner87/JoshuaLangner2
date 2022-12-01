@@ -11,7 +11,7 @@ function Recipes() {
   return (
     <div className="page">
       <NavLink to='/portfolio'> <img src={home} alt="home icon" className='home_icon'/> </NavLink>
-      <h1 className='project_title'>Recipes for Me</h1>
+      <h1 className='project_title' id='#top'>Recipes for Me</h1>
       <h2 className='project_subtitle'>PERN APPLICATION</h2>
       <div className='project_attribute_container'>
         <p className='project_attribute'>Team Project</p>
@@ -35,10 +35,10 @@ function Recipes() {
       </div>
       </div>
       <div className='project_nav_container'>
-        <NavLink to='/portfolio/order_form'>
+        <NavLink to='/portfolio/alice_python'>
           <img src={previous} alt="previous project icon" className='project_nav_icon'/>
         </NavLink>
-        <NavLink to='/portfolio/rpg_dice'>
+        <NavLink to='/portfolio/teacher_portfolio'>
           <img src={next} alt="previous project icon" className='project_nav_icon'/>
         </NavLink>
       </div>

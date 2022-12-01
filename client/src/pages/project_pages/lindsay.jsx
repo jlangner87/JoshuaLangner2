@@ -11,7 +11,7 @@ function Lindsay() {
   return (
     <div className="page">
       <NavLink to='/portfolio'> <img src={home} alt="home icon" className='home_icon'/> </NavLink>
-      <h1 className='project_title'>Team Lindsay</h1>
+      <h1 className='project_title' id='#top'>Team Lindsay</h1>
       <h2 className='project_subtitle'>REACT FORMS</h2>
       <div className='project_attribute_container'>
         <p className='project_attribute'>Individual Project</p>
@@ -35,10 +35,10 @@ function Lindsay() {
       </div>
       </div>
       <div className='project_nav_container'>
-        <NavLink to='/portfolio/PERN_wikibean'>
+        <NavLink to='/portfolio/teacher_portfolio'>
           <img src={previous} alt="previous project icon" className='project_nav_icon'/>
         </NavLink>
-        <NavLink to='/portfolio/PERN_recipes'>
+        <NavLink to='/portfolio/flashcards'>
           <img src={next} alt="previous project icon" className='project_nav_icon'/>
         </NavLink>
       </div>
