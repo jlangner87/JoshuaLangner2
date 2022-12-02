@@ -99,6 +99,7 @@ body {
 .splash_text {
   margin-left: 25px;
   padding-bottom: 15px;
+  width: 95%;
 }
 
 .terminal_bar {
@@ -108,8 +109,14 @@ body {
   border-radius: 16px 16px 0 0;
   padding: 5px;
   display: flex;
-  justify-content: flex-start;
   flex-direction: row;
+  justify-content: flex-end;
+}
+
+.terminal_bar_title {
+  color: #8d8d8d;
+  margin-left: 30px;
+  padding-top: 5px;
 }
 
 #red {
@@ -397,8 +404,14 @@ form {
   }
   
   .nav_tile {
-    width: 65%;
+    width: 80%;
     margin-bottom: 30px;
+  }
+
+  .terminal_bar_title {
+    font-size: 10px;
+    margin-left: 12px;
+    padding-top: 4px;
   }
   
   .page_content {
@@ -501,30 +514,30 @@ form {
   
   .splash_subheading {
     font-size: 18px;
-    margin: 25px 0 15px 13px;
+    margin: 25px 0 15px 10px;
   }
   
   .splash_text {
-    margin-left: 13px;
+    margin-left: 10px;
     padding-bottom: 15px;
+    width: 95%;
   }
   
   .terminal_bar {
     width: 98%;
     height: 25px;
-
   }
   
   #red {
-    margin: 4px;
+    margin: 3px;
   }
   
   #yellow {
-    margin: 4px;
+    margin: 3px;
   }
   
   #green {
-    margin: 4px;
+    margin: 3px;
   }
   
   .blinking-cursor {
@@ -536,3 +549,6 @@ form {
 
 }
 
+.directory {
+  color: rgb(156, 194, 250);
+}
