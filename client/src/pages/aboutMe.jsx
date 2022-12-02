@@ -1,5 +1,6 @@
 import { NavLink } from 'react-router-dom'
 import { HashLink } from 'react-router-hash-link'
+import { useEffect } from 'react'
 import SlideShow from '../components/slides'
 import Contact from '../components/contact'
 import header from '../elements/me_header.png'
@@ -21,6 +22,9 @@ import resumePDF from '../elements/JLangner_resume.pdf'
 
 function AboutMe() {
 
+  useEffect(() => {
+    window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
+  }, []);
 
   return (
     <div className="page">
