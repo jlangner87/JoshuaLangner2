@@ -495,5 +495,44 @@ form {
     border-top: none;
   }
 
+  .splash_container {
+    width: 95%;
+  }
+  
+  .splash_subheading {
+    font-size: 18px;
+    margin: 25px 0 15px 13px;
+  }
+  
+  .splash_text {
+    margin-left: 13px;
+    padding-bottom: 15px;
+  }
+  
+  .terminal_bar {
+    width: 98%;
+    height: 25px;
+
+  }
+  
+  #red {
+    margin: 4px;
+  }
+  
+  #yellow {
+    margin: 4px;
+  }
+  
+  #green {
+    margin: 4px;
+  }
+  
+  .blinking-cursor {
+    font-size: 18px;
+  }
+
+  
+
+
 }
 
