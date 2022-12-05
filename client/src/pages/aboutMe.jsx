@@ -21,11 +21,6 @@ import resume from '../elements/resume.png'
 import resumePDF from '../elements/JLangner_resume.pdf'
 
 function AboutMe() {
-
-  useEffect(() => {
-    window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
-  }, []);
-
   return (
     <div className="page">
             <NavLink to='/'> <img src={home} alt="home icon" className='icon'/> </NavLink>

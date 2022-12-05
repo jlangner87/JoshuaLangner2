@@ -1,5 +1,6 @@
 import './App.css'
 import { Routes, Route } from 'react-router-dom'
+import { Outlet } from 'react-router-dom'
 import Splash from './pages/splash'
 import AboutMe from './pages/aboutMe'
 import BusinessSites from './pages/businessSites'
@@ -18,6 +19,7 @@ import Flashcards from './pages/project_pages/flashcards'
 function App() {
   return (
     <div className="App">
+      <Outlet />
       <Routes>
         <Route path="/" element={<Splash />} />
         <Route path="/portfolio" element={<AboutMe />} />

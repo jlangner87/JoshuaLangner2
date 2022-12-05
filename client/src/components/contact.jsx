@@ -7,6 +7,8 @@ import linkedinLogo from '../elements/linklogo.png'
 import './Form.css'
 
 function Contact() {
+
+
   const initialState = {
     name: '',
     email: '',
@@ -17,6 +19,7 @@ function Contact() {
   const [formState, setFormState] = useState(initialState)
 
   const handleChange = (event) => {
+    event.preventDefault()
     setFormState({ ...formState, [event.target.id]: event.target.value })
     if (event.target.value === '') {
       setFormState({ ...formState, [event.target.id]: 0 })
@@ -54,7 +57,7 @@ function Contact() {
       <div>
           <label for="name">
             <span class="required">Name:</span> 
-            <input onChange={handleChange} type="text" id="name" name="name" value={formState.name} placeholder="Your Name" required="required" tabindex="1" autofocus="autofocus" />
+            <input onChange={handleChange} type="text" id="name" name="name" value={formState.name} placeholder="Your Name" required="required" tabindex="1" />
           </label> 
       </div>
       <div>
