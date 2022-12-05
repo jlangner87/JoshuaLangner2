@@ -7,9 +7,6 @@ import weddingNav from '../elements/weddings.png'
 import portfoloNav from '../elements/portfolios.png'
 
 function Splash() {
-  useEffect(() => {
-    window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
-  });
   return (
     <div className="page">
       <img src={header} alt="octopus in curly braces logo. joshua langner web developer" className='splash_header_logo'/>

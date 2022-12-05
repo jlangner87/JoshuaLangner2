@@ -28,15 +28,15 @@ function AboutMe() {
       <div className='page_content'>
         <h1 className='page_content_header'>&#60; About Me &#47;&#62;</h1>
         <h2 className='page_content_subheader'>An Overview</h2>
-        <p className='page_content_body'>I am a software engineer with a background in technical support, sales, and leadership in the electronics and cellular industry.
+        <p className='page_content_body'>I am a software engineer with a background in technical support, sales, and leadership in the electronics and cellular industry.</p>
           <br/>
-          I have a driving passion for solving complex problems by creating beautiful, accessible, responsive applications. 
+          <p className='page_content_body'>I have a driving passion for solving complex problems by creating beautiful, accessible, responsive applications. </p>
           <br/>
-          I thrive in diverse collaborative cultures where continuous improvement, creativity, and curiosity are a driving force.</p>
+          <p className='page_content_body'> I am seeking a software engineering role in a company with a diverse collaborative culture where continuous improvement, creativity, and curiosity are a driving force.</p>
         <h2 className='page_content_subheader'>A Personal Note</h2>
-        <p className='page_content_body'>Aside from a developer, I am a husband and father living in rural Iowa. My passion hobby is theater. I am a playwright, director, and actor. It is fun, but I have gained so many transferrable skills in teater. I have learned how to effectively work with a diverse group to deliver the best possible product. I have learned the importance of giving my best to my areas of contribution. I have learned the process of taking an abstract concept and transforming it into a tangible product for the audience to enjoy.</p>
+        <p className='page_content_body'>Aside from a developer, I am a husband and father living in rural Iowa. My passion hobby is theater. I am a playwright, director, and actor. It is a fun thing to do, but more than that— I have gained so many transferrable skills from this passion. I have learned how to effectively work with a diverse group to deliver the best possible product. I have learned the importance of giving my best to my areas of contribution. I have learned the process of taking an abstract concept and transforming it into a tangible product for the audience to enjoy.</p>
         <h3 className='page_content_subheader'>resume</h3>
-        <p className='page_content_body'>Download a copy of my resume here. <br/>
+        <p className='page_content_body'>Feel free to download a copy of my resume here. <br/>
           <div class="btn btn-primary tooltip">         <a href={resumePDF} download><img className='icon2' src={resume} alt="download resume icon" /></a>
             <div class="top">
               <h3>Download Resume</h3>
@@ -94,6 +94,24 @@ function AboutMe() {
             <p className='skill'>Navigating Change</p>
             <p className='skill'>Listening with Empathy</p>
           </div>
+        </div>
+        <h3 className='continuing_ed_header'>Current Continuing Education</h3>
+        <div className='continuing_ed_container'>
+        <div className='continuing_ed'>
+        <p className='continuing_ed_subject'>Data Science Foundations</p>
+        <p className='continuing_ed_attribute'>Online Course</p>
+        <p className='continuing_ed_attribute'>Codecademy</p>
+        </div>
+        <div className='continuing_ed'>
+        <p className='continuing_ed_subject'>The Design of Everyday Things</p>
+        <p className='continuing_ed_attribute'>Reading Material</p>
+        <p className='continuing_ed_attribute'>By: Don Norman</p>
+        </div>
+        <div className='continuing_ed'>
+        <p className='continuing_ed_subject'>Color Theory and Design</p>
+        <p className='continuing_ed_attribute'>Online Course</p>
+        <p className='continuing_ed_attribute'>Codecademy</p>
+        </div>
         </div>
         <div className='skills_container'>
           <img className='small_logo' src={html} alt="h.t.m.l. 5 logo" />

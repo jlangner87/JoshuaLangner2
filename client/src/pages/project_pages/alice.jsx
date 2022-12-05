@@ -3,7 +3,6 @@ import './Projects.css'
 import home from './project_images/home_icon.png'
 import alice from './project_images/alice.png'
 import repo from './project_images/repo.png'
-import link from './project_images/link.png'
 import previous from './project_images/previous.png'
 import next from './project_images/next.png'
 
