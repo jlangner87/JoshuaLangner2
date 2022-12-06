@@ -2,6 +2,7 @@ import { NavLink } from 'react-router-dom'
 import './Projects.css'
 import home from './project_images/home_icon.png'
 import lindsay from './project_images/lindsay.png'
+import feedback from './project_images/feedback.png'
 import repo from './project_images/repo.png'
 import link from './project_images/link.png'
 import previous from './project_images/previous.png'
@@ -21,8 +22,14 @@ function Lindsay() {
       <img src={lindsay} className='project_splash' alt='team lindsay order form'/>
       <div className='project_summary'>
         <h3 className='project_summary_title'>About Team Lindsay</h3>
-        <p className='project_summary_body'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam rhoncus in lorem sit amet consectetur. Etiam porttitor risus sit amet lacinia volutpat. Maecenas semper pellentesque consectetur. Suspendisse placerat vitae neque at rhoncus. Proin mollis dapibus eros, nec vehicula est sollicitudin nec. Nullam dignissim sem nunc, at dictum dolor tempus nec. Ut ornare eros libero, vel malesuada mauris rutrum at.</p>
+        <p className='project_summary_body'>This was a particularly fun project for me because It came to me organically.</p>
+        <p className='project_summary_body'>A local business owner was holding a fundraiser, and she was struggling with a technical aspect of the event. She was trying to create a Google Forms order form, but it lacked the customization that she needed.</p>
+        <p className='project_summary_body'>I spoke with her about what she needed and set out to build an application to meet those needs.</p>
+        <p className='project_summary_body'>I used React.Js and Node.js to create this application. I focused on state management and using React Hooks to manage the state of the form appropriately. Then I researched several options for submitting the form to the client. In the end, I determined that EmailJs was the best option to fit their needs. I took some time to learn the tool and successfully integrated in into their application</p>
+        <h3 className='project_summary_title'>Client Feedback</h3>
+        <img src={feedback} alt="client feedback for this application: I gave him a brief idea of an order form i needed and he turned it into something amazing" className='project_artifact' />
       </div>
+
       <div className='project_links_container'>
       <h3 className='project_links_title'>Still want to see more about Team Lindsay?</h3>
       <div className='project_logo_container'>

@@ -150,10 +150,18 @@
   font-family: 'Libre Baskerville', serif;
   font-size: 14px;
   list-style: none;
+  margin-top: -10px;
 }
 
 .project_summary_list_item {
   padding: 5px;
+}
+
+.project_artifact {
+  width: 65%;
+  margin: 15px auto 30px auto;
+  border: 2px solid #222222;
+  border-radius: 16px;
 }
 
 
@@ -161,6 +169,10 @@
 
   .project_splash {
     width: 95%;
+  }
+  .project_artifact {
+    width: 95%;
+    border: 1px solid #222222;
   }
   
   .project_title {
