@@ -7,8 +7,8 @@ import Contact from '../components/contact'
 function EventPages() {
   return (
     <div className="page">
-      <NavLink to='/'> <img src={home} alt="home icon" className='icon'/> </NavLink>
-      <img src={header} alt="business website development service" className='header_logo'/>
+      <NavLink to='/'> <img src={home} alt="navigate home" className='icon'/> </NavLink>
+      <img src={header} alt="wedding and event pages development service" className='header_logo'/>
       <div className='page_content'>
         <h1 className='page_content_header'><span className='bracket'>&#123;</span> Simplify Your Day <span className='bracket'>&#125;</span></h1>
         <p className='services_content_catch'>For whatever you are celebrating, <em>Congratulations!</em> It is your big day! nd you <em>deserve</em> it to be as simple as possible— leaving room for you to enjoy every moment!</p>

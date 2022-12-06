@@ -23,7 +23,7 @@ import resumePDF from '../elements/JLangner_resume.pdf'
 function AboutMe() {
   return (
     <div className="page">
-            <NavLink to='/'> <img src={home} alt="home icon" className='icon' id='#top'/> </NavLink>
+            <NavLink to='/'> <img src={home} alt="navigate home" className='icon' id='#top'/> </NavLink>
       <img src={header} alt="headshot and title Joshua Langner Software engineer" className='header_logo'/>
       <div className='page_content'>
         <h1 className='page_content_header'>&#60; About Me &#47;&#62;</h1>
@@ -37,7 +37,7 @@ function AboutMe() {
         <p className='page_content_body'>Aside from a developer, I am a husband and father living in rural Iowa. My passion hobby is theater. I am a playwright, director, and actor. It is a fun thing to do, but more than that— I have gained so many transferrable skills from this passion. I have learned how to effectively work with a diverse group to deliver the best possible product. I have learned the importance of giving my best to my areas of contribution. I have learned the process of taking an abstract concept and transforming it into a tangible product for the audience to enjoy.</p>
         <h3 className='page_content_subheader'>resume</h3>
         <p className='page_content_body'>Feel free to download a copy of my resume here. <br/>
-          <div class="btn btn-primary tooltip">         <a href={resumePDF} download><img className='icon2' src={resume} alt="download resume icon" /></a>
+          <div class="btn btn-primary tooltip"><a href={resumePDF} download><img className='icon2' src={resume} alt="download resume" /></a>
             <div class="top">
               <h3>Download Resume</h3>
               <p>Created: 12/01/2022</p>
@@ -45,10 +45,10 @@ function AboutMe() {
             </div>
           </div>
         </p>    
-        <img src={family} alt="family photo of Joshua, his wife, their son and two daughters" className='family_photo'/>
+        <img src={family} alt="family photo: Joshua, his wife, their son and two daughters" className='family_photo'/>
       </div>
       <div className='page_content'>
-        <HashLink smooth to='#top'> <img src={toTop} alt="to top icon" className='icon'/></HashLink>
+        <HashLink smooth to='#top'> <img src={toTop} alt="navigate to top" className='icon'/></HashLink>
         <h1 className='page_content_header'>&#60; Skills &#47;&#62;</h1>
         <div className='skills_container'>
           <div className='skill_list'>
@@ -114,26 +114,26 @@ function AboutMe() {
         </div>
         </div>
         <div className='skills_container'>
-          <img className='small_logo' src={html} alt="h.t.m.l. 5 logo" />
-          <img className='small_logo' src={css} alt="c.s.s. 3 logo" />
-          <img className='small_logo' src={javascript} alt="javascript logo" />
-          <img className='small_logo' src={typescript} alt="typescript logo" />
-          <img className='small_logo' src={python} alt="python logo" />
-          <img className='small_logo' src={reactLogo} alt="react logo" />
-          <img className='small_logo' src={vue} alt="vue logo" />
-          <img className='small_logo' src={mongodb} alt="mongo d.b. logo" />
-          <img className='small_logo' src={psql} alt="postgres s.q.l. logo" />
-          <img className='small_logo' src={node} alt="node j.s. logo" />
+          <img className='small_logo' src={html} alt="h.t.m.l. 5" />
+          <img className='small_logo' src={css} alt="c.s.s. 3" />
+          <img className='small_logo' src={javascript} alt="javascript" />
+          <img className='small_logo' src={typescript} alt="typescript" />
+          <img className='small_logo' src={python} alt="python" />
+          <img className='small_logo' src={reactLogo} alt="react" />
+          <img className='small_logo' src={vue} alt="vue" />
+          <img className='small_logo' src={mongodb} alt="mongo d.b." />
+          <img className='small_logo' src={psql} alt="postgres s.q.l." />
+          <img className='small_logo' src={node} alt="node j.s." />
         </div>
         </div>
       <div className='page_content'>
-        <HashLink smooth to='#top'> <img src={toTop} alt="to top icon" className='icon'/></HashLink>
+        <HashLink smooth to='#top'> <img src={toTop} alt="navigate to top" className='icon'/></HashLink>
         <h1 className='page_content_header'>&#60; Project Portfolio &#47;&#62;</h1>
         <SlideShow/>
         <p className='space'>.</p>
       </div>
       <div className='page_content'>
-      <HashLink smooth to='#top'> <img src={toTop} alt="to top icon" className='icon'/> </HashLink>
+      <HashLink smooth to='#top'> <img src={toTop} alt="navigate to top" className='icon'/> </HashLink>
         <h1 className='page_content_header'>&#60; Connect with Me &#47;&#62;</h1>
       <Contact/>
       </div>

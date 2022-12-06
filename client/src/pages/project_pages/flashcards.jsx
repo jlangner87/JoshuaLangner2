@@ -10,7 +10,7 @@ import mathcard from './project_images/mathcard.png'
 function Flashcards () {
   return (
     <div className="page">
-      <NavLink to='/portfolio'> <img src={home} alt="home icon" className='home_icon'/> </NavLink>
+      <NavLink to='/portfolio'> <img src={home} alt="navigate home" className='home_icon'/> </NavLink>
       <h1 className='project_title'>Kids Flashcards</h1>
       <h2 className='project_subtitle'>Static React Application</h2>
       <div className='project_attribute_container'>
@@ -18,7 +18,7 @@ function Flashcards () {
         <p className='project_attribute'>Personal Development</p>
         <p className='project_attribute'>October 2022</p>
       </div>
-      <img src={mathcard} className='project_splash'/>
+      <img src={mathcard} className='project_splash' alt="Kid's flashcards application landing page"/>
       <div className='project_summary'>
         <h3 className='project_summary_title'>About Kids Flashcards</h3>
         <p className='project_summary_body'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam rhoncus in lorem sit amet consectetur. Etiam porttitor risus sit amet lacinia volutpat. Maecenas semper pellentesque consectetur. Suspendisse placerat vitae neque at rhoncus. Proin mollis dapibus eros, nec vehicula est sollicitudin nec. Nullam dignissim sem nunc, at dictum dolor tempus nec. Ut ornare eros libero, vel malesuada mauris rutrum at.</p>
@@ -36,10 +36,10 @@ function Flashcards () {
       </div>
       <div className='project_nav_container'>
         <NavLink to='/portfolio/order_form'>
-          <img src={previous} alt="previous project icon" className='project_nav_icon'/>
+          <img src={previous} alt="navigate to previous project" className='project_nav_icon'/>
         </NavLink>
         <NavLink to='/portfolio/rpg_dice'>
-          <img src={next} alt="previous project icon" className='project_nav_icon'/>
+          <img src={next} alt="navigate to next project" className='project_nav_icon'/>
         </NavLink>
       </div>
     </div>

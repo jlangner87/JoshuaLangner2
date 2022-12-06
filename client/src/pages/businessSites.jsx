@@ -6,7 +6,7 @@ import Contact from '../components/contact'
 function BusinessSites() {
   return (
     <div className="page">
-      <NavLink to='/'> <img src={home} alt="home icon" className='icon'/> </NavLink>
+      <NavLink to='/'> <img src={home} alt="navigate home" className='icon'/> </NavLink>
       <img src={header} alt="business website development service" className='header_logo'/>
       <div className='page_content'>
         <h1 className='page_content_header'><span className='bracket'>&#123;</span> Elevate Your Business <span className='bracket'>&#125;</span></h1>
