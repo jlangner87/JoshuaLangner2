@@ -16,15 +16,23 @@ function Caleb() {
       <div className='project_attribute_container'>
         <p className='project_attribute'>Individual Project</p>
         <p className='project_attribute'>Pro-Bono Work</p>
-        <p className='project_attribute'>September 2022</p>
+        <p className='project_attribute'>September 2022 - Ongoing</p>
       </div>
       <img src={caleb} className='project_splash' alt='caleb langner: teaching portfolio application landing page'/>
       <div className='project_summary'>
-        <h3 className='project_summary_title'>About Teaching Portfolio</h3>
-        <p className='project_summary_body'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam rhoncus in lorem sit amet consectetur. Etiam porttitor risus sit amet lacinia volutpat. Maecenas semper pellentesque consectetur. Suspendisse placerat vitae neque at rhoncus. Proin mollis dapibus eros, nec vehicula est sollicitudin nec. Nullam dignissim sem nunc, at dictum dolor tempus nec. Ut ornare eros libero, vel malesuada mauris rutrum at.</p>
+        <h3 className='project_summary_title'>About this Teaching Portfolio</h3>
+        <p className='project_summary_body'>This was the first project I took on after graduating from my immersive. I wanted a project with real world application, and I wanted to work with a real client and address real needs.</p>
+        <p className='project_summary_body'>My brother is a teacher, and he had a professional portfolio hosted on Weebly. The information was outdated, and he was not completely happy with the layout of the content. He agreed to let me build and deploy a new portfolio.</p>
+        <p className='project_summary_body'>For this project, I worked directly with my client to learn his needs and address them with the application. Once I had a full understanding, of the scope of the project, I focused on learning and applying UI design concepts, and building ADA accessibility into a static React application.</p>
+        <p className='project_summary_body'>This project is listed as ongoing because, I have evolved so much since I originally built it. My skills have been sharpened, and and I have more tools at my disposal. </p>
+        <p className='project_summary_body'>Upcoming features include:</p>
+        <ul className='project_summary_list'>
+        <li className='project_summary_list_item'>Contact Form</li>
+        <li className='project_summary_list_item'>MongoDB/Express Backend to allow the client to update his own content</li>
+        </ul>
       </div>
       <div className='project_links_container'>
-      <h3 className='project_links_title'>Still want to see more about Teaching Portfolio?</h3>
+      <h3 className='project_links_title'>Still want to see more about this Teaching Portfolio?</h3>
       <div className='project_logo_container'>
         <a href='https://github.com/jlangner87/caleb_langner'>
           <img src={repo} alt="github logo label: project repo link" className='project_icon'/>
