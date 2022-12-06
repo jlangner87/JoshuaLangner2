@@ -1,5 +1,4 @@
 import { NavLink } from 'react-router-dom'
-import { useEffect } from 'react'
 import home from '../elements/home_icon.png'
 import header from '../elements/events_header.png'
 import Contact from '../components/contact'

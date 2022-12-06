@@ -23,8 +23,8 @@ import resumePDF from '../elements/JLangner_resume.pdf'
 function AboutMe() {
   return (
     <div className="page">
-            <NavLink to='/'> <img src={home} alt="home icon" className='icon'/> </NavLink>
-      <img src={header} alt="headshot and title Joshua Langner Software engineer" className='header_logo' id='#top'/>
+            <NavLink to='/'> <img src={home} alt="home icon" className='icon' id='#top'/> </NavLink>
+      <img src={header} alt="headshot and title Joshua Langner Software engineer" className='header_logo'/>
       <div className='page_content'>
         <h1 className='page_content_header'>&#60; About Me &#47;&#62;</h1>
         <h2 className='page_content_subheader'>An Overview</h2>
