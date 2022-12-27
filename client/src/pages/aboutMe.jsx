@@ -18,7 +18,7 @@ import vue from '../elements/vue.png'
 import html from '../elements/html.png'
 import css from '../elements/css.png'
 import resume from '../elements/resume.png'
-import resumePDF from '../elements/JLangner_resume.pdf'
+import resumePDF from '../elements/Jlangner_resume.pdf'
 
 function AboutMe() {
   return (

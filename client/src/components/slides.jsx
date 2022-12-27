@@ -8,11 +8,31 @@ import alice from '../project_images/alice.png'
 import rpsvue from '../project_images/rpsvue.png'
 import caleb from '../project_images/caleb.png'
 import mathcard from '../project_images/mathcard.png'
+import shopping from '../project_images/shopping_spree.png'
+import modmin from '../project_images/modmin.png'
 
 
 function SlideShow() {
   return (
 <div className="slideshow">
+
+<div className='slide_container'>
+  <HashLink to='/portfolio/moderator_app'>
+  <h3 className='slide_title'>Moderator Application</h3>
+  <h4 className='slide_subtitle'>React Forms</h4>
+  <img src={modmin} alt="shop spencer list of businesses offering electronic gift cards" className='slide'/>
+  <p className='project_annotation'>December 2022</p>
+  </HashLink>
+  </div>
+
+<div className='slide_container'>
+  <HashLink to='/portfolio/shop_spencer'>
+  <h3 className='slide_title'>Vierual Shopping Spree</h3>
+  <h4 className='slide_subtitle'>Static React Application</h4>
+  <img src={shopping} alt="shop spencer list of businesses offering electronic gift cards" className='slide'/>
+  <p className='project_annotation'>December 2022</p>
+  </HashLink>
+  </div>
 
 <div className='slide_container'>
   <HashLink to='/portfolio/teacher_portfolio'>

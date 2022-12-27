@@ -15,7 +15,7 @@ function Caleb() {
       <h2 className='project_subtitle'>Static React Application</h2>
       <div className='project_attribute_container'>
         <p className='project_attribute'>Individual Project</p>
-        <p className='project_attribute'>Pro-Bono Work</p>
+        <p className='project_attribute'>Volunteer Freelance</p>
         <p className='project_attribute'>September 2022 - Ongoing</p>
       </div>
       <img src={caleb} className='project_splash' alt='caleb langner: teaching portfolio application landing page'/>
@@ -43,7 +43,7 @@ function Caleb() {
       </div>
       </div>
       <div className='project_nav_container'>
-        <NavLink to='/portfolio/PERN_recipes'>
+        <NavLink to='/portfolio/shop_spencer'>
           <img src={previous} alt="navigate to previous project" className='project_nav_icon'/>
         </NavLink>
         <NavLink to='/portfolio/order_form'>

@@ -6,6 +6,7 @@ import weddingNav from '../elements/weddings.png'
 import portfoloNav from '../elements/portfolios.png'
 
 function Splash() {
+
   return (
     <div className="page">
       <img src={header} alt="octopus in curly braces logo. joshua langner web developer" className='splash_header_logo'/>
