@@ -6,6 +6,12 @@ import repo from './project_images/repo.png'
 import link from './project_images/link.png'
 import previous from './project_images/previous.png'
 import next from './project_images/next.png'
+import icon_react from './project_images/react.png'
+import html from './project_images/html.png'
+import javascript from './project_images/javascript.png'
+import css from './project_images/css.png'
+import psql from './project_images/postgresql.png'
+import node from './project_images/node.png'
 
 function Recipes() {
   return (
@@ -19,6 +25,14 @@ function Recipes() {
         <p className='project_attribute'>August 2022</p>
       </div>
       <img src={recipes} className='project_splash'/>
+      <div className='tech_container'>
+          <img className='tech_icon' src={html} alt="html 5" />
+          <img className='tech_icon' src={css} alt="c.s.s. 3" />
+          <img className='tech_icon' src={javascript} alt="javascript" />
+          <img className='tech_icon' src={icon_react} alt="react" />
+          <img className='tech_icon' src={psql} alt="postgresql" />
+          <img className='tech_icon' src={node} alt="node" />
+        </div>
       <div className='project_summary'>
         <h3 className='project_summary_title'>About Recipes For Me</h3>
         <p className='project_summary_body'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam rhoncus in lorem sit amet consectetur. Etiam porttitor risus sit amet lacinia volutpat. Maecenas semper pellentesque consectetur. Suspendisse placerat vitae neque at rhoncus. Proin mollis dapibus eros, nec vehicula est sollicitudin nec. Nullam dignissim sem nunc, at dictum dolor tempus nec. Ut ornare eros libero, vel malesuada mauris rutrum at.</p>

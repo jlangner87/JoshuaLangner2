@@ -6,6 +6,10 @@ import link from './project_images/link.png'
 import previous from './project_images/previous.png'
 import next from './project_images/next.png'
 import caleb from './project_images/caleb.png'
+import icon_react from './project_images/react.png'
+import html from './project_images/html.png'
+import javascript from './project_images/javascript.png'
+import css from './project_images/css.png'
 
 function Caleb() {
   return (
@@ -19,6 +23,12 @@ function Caleb() {
         <p className='project_attribute'>September 2022 - Ongoing</p>
       </div>
       <img src={caleb} className='project_splash' alt='caleb langner: teaching portfolio application landing page'/>
+      <div className='tech_container'>
+          <img className='tech_icon' src={html} alt="html 5" />
+          <img className='tech_icon' src={css} alt="c.s.s. 3" />
+          <img className='tech_icon' src={javascript} alt="javascript" />
+          <img className='tech_icon' src={icon_react} alt="react" />
+        </div>
       <div className='project_summary'>
         <h3 className='project_summary_title'>About this Teaching Portfolio</h3>
         <p className='project_summary_body'>This was the first project I took on after graduating from my immersive. I wanted a project with real world application, and I wanted to work with a real client and address real needs.</p>

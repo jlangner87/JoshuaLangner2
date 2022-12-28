@@ -5,6 +5,7 @@ import alice from './project_images/alice.png'
 import repo from './project_images/repo.png'
 import previous from './project_images/previous.png'
 import next from './project_images/next.png'
+import python from './project_images/python.png'
 
 function Alice() {
   return (
@@ -18,6 +19,9 @@ function Alice() {
         <p className='project_attribute'>August 2022</p>
       </div>
       <img src={alice} className='project_splash' alt='python command line interface game'/>
+      <div className='tech_container'>
+          <img className='tech_icon' src={python} alt="python" />
+        </div>
       <div className='project_summary'>
         <h3 className='project_summary_title'>About Alice's Adventures</h3>
         <p className='project_summary_body'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam rhoncus in lorem sit amet consectetur. Etiam porttitor risus sit amet lacinia volutpat. Maecenas semper pellentesque consectetur. Suspendisse placerat vitae neque at rhoncus. Proin mollis dapibus eros, nec vehicula est sollicitudin nec. Nullam dignissim sem nunc, at dictum dolor tempus nec. Ut ornare eros libero, vel malesuada mauris rutrum at.</p>

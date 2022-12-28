@@ -7,6 +7,10 @@ import repo from './project_images/repo.png'
 import link from './project_images/link.png'
 import previous from './project_images/previous.png'
 import next from './project_images/next.png'
+import icon_react from './project_images/react.png'
+import html from './project_images/html.png'
+import javascript from './project_images/javascript.png'
+import css from './project_images/css.png'
 
 function Lindsay() {
   return (
@@ -20,6 +24,12 @@ function Lindsay() {
         <p className='project_attribute'>October 2022</p>
       </div>
       <img src={lindsay} className='project_splash' alt='team lindsay order form'/>
+      <div className='tech_container'>
+          <img className='tech_icon' src={html} alt="html 5" />
+          <img className='tech_icon' src={css} alt="c.s.s. 3" />
+          <img className='tech_icon' src={javascript} alt="javascript" />
+          <img className='tech_icon' src={icon_react} alt="react" />
+        </div>
       <div className='project_summary'>
         <h3 className='project_summary_title'>About Team Lindsay</h3>
         <p className='project_summary_body'>This was a particularly fun project for me because It came to me organically.</p>

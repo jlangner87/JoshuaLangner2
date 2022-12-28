@@ -6,6 +6,10 @@ import repo from './project_images/repo.png'
 import link from './project_images/link.png'
 import previous from './project_images/previous.png'
 import next from './project_images/next.png'
+import icon_react from './project_images/react.png'
+import html from './project_images/html.png'
+import javascript from './project_images/javascript.png'
+import css from './project_images/css.png'
 
 function ShopSpencer() {
   return (
@@ -19,6 +23,12 @@ function ShopSpencer() {
         <p className='project_attribute'>December 2022</p>
       </div>
       <img src={shopping_spree} className='project_splash'/>
+      <div className='tech_container'>
+          <img className='tech_icon' src={html} alt="html 5" />
+          <img className='tech_icon' src={css} alt="c.s.s. 3" />
+          <img className='tech_icon' src={javascript} alt="javascript" />
+          <img className='tech_icon' src={icon_react} alt="react" />
+        </div>
       <div className='project_summary'>
         <h3 className='project_summary_title'>About Virtual Shopping Spree</h3>
         <p className='project_summary_body'>Having previously worked in retail, I know very well that the week leading up to Christmas is a huge part of the annual business results for the local businesses in our community.</p>
