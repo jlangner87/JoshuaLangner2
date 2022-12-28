@@ -35,7 +35,11 @@ function Recipes() {
         </div>
       <div className='project_summary'>
         <h3 className='project_summary_title'>About Recipes For Me</h3>
-        <p className='project_summary_body'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam rhoncus in lorem sit amet consectetur. Etiam porttitor risus sit amet lacinia volutpat. Maecenas semper pellentesque consectetur. Suspendisse placerat vitae neque at rhoncus. Proin mollis dapibus eros, nec vehicula est sollicitudin nec. Nullam dignissim sem nunc, at dictum dolor tempus nec. Ut ornare eros libero, vel malesuada mauris rutrum at.</p>
+        <p className='project_summary_body'>This project was built by a dev team consisting of four junior developers.</p>
+        <p className='project_summary_body'>I was responsible for building the PostgreSQL database, the Express.Js server and routing the endpoints.</p>
+        <p className='project_summary_body'>I created three associated models: ‘Users,” “Recipes,” and “Categories.” Then I created endpoints for full CRUD (create, read, update, delete) capability on the “Recipes” and “Users” models. When that was finished, I stepped into the role of styling the page with custom CSS.</p>
+        <p className='project_summary_body'>The other developers on the team were responsible for, creating a React front end, implementing JWT authentication, calling the backend API from the front end, and making ADA accessibility compliant web forms.</p>
+        <p className='project_summary_body'>I also acted as a team manager— identifying strengths and opportunities in teammates and allocating responsibilities accordingly; strategically scheduling milestones and keeping a productive cadence with periodic stand-ups and open communication.</p>
       </div>
       <div className='project_links_container'>
       <h3 className='project_links_title'>Still want to see more about Recipes?</h3>

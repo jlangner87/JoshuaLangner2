@@ -35,7 +35,11 @@ function WikiBean() {
         </div>
       <div className='project_summary'>
         <h3 className='project_summary_title'>About WikiBean</h3>
-        <p className='project_summary_body'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam rhoncus in lorem sit amet consectetur. Etiam porttitor risus sit amet lacinia volutpat. Maecenas semper pellentesque consectetur. Suspendisse placerat vitae neque at rhoncus. Proin mollis dapibus eros, nec vehicula est sollicitudin nec. Nullam dignissim sem nunc, at dictum dolor tempus nec. Ut ornare eros libero, vel malesuada mauris rutrum at.</p>
+        <p className='project_summary_body'>This was assigned as a final project for my software engineering immersive. The criteria were to build and deploy a web application with both a front and back end, using any tech stack we preferred. The application needed a minimum of 3 models, full CRUD (create, read, update, delete) capability accessible to users on the front end. The overall content was to solve a problem relating to something that we were passionate about.</p>
+        <p className='project_summary_body'>I am passionate about coffee roasted by small businesses, and I hate scraping the bottom of Google to find new roasters. WikiBean was born.</p>
+        <p className='project_summary_body'>I created this application with the PERN stack. I built 4 associated models: “Beans,” “Roasters,” and “Retailers.” Then I created more than 15 endpoints and routes to return Bean selections based on the “Origin,” “Roast,” “Grind,” “Organic,” “Roaster,” “Retailer,” and more. The crown jewel of the project was my “custom search” feature that allowed users to search for beans by combining multiple parameters.</p>
+        <p className='project_summary_body'>Then I created a custom styled React front end complete with routes for users to access all of my endpoints via a front-end API call.</p>
+        <p className='project_summary_body'><em>This project was originally hosted on Heroku. The front-end is currently hosted on Netlify, and the back-end is not currently hosted anywhere.</em></p>
       </div>
       <div className='project_links_container'>
       <h3 className='project_links_title'>Still want to see more about WikiBean?</h3>

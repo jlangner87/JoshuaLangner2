@@ -7,7 +7,6 @@
   width: 25px;
   float: left;
   margin: -15px -15px 0px 15px;
-
 }
 
 .project_title {
@@ -79,6 +78,7 @@
   margin-top: 40px;
   border-radius: 20px;
   margin-bottom: 60px;
+  padding-bottom: 20px;
 }
 
 .project_summary_title {
@@ -87,7 +87,8 @@
   text-transform: uppercase;
   font-size: 36px;
   text-align: left;
-  padding: 10px;
+  padding: 20px 10px 10px 10px;
+  margin-bottom: 20px;
   color: #73009d;
 }
 

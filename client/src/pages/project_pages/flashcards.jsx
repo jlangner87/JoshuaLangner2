@@ -29,7 +29,8 @@ function Flashcards () {
         </div>
       <div className='project_summary'>
         <h3 className='project_summary_title'>About Kids Flashcards</h3>
-        <p className='project_summary_body'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam rhoncus in lorem sit amet consectetur. Etiam porttitor risus sit amet lacinia volutpat. Maecenas semper pellentesque consectetur. Suspendisse placerat vitae neque at rhoncus. Proin mollis dapibus eros, nec vehicula est sollicitudin nec. Nullam dignissim sem nunc, at dictum dolor tempus nec. Ut ornare eros libero, vel malesuada mauris rutrum at.</p>
+        <p className='project_summary_body'>This project was made shortly after graduating my immersive program. My daughter was doing some flashcards, and I and I thought a digital flashcard application would be a fun day project to do in vanilla JS.</p>
+        <p className='project_summary_body'>As I was making the app, I realized that I could create additional card packs and route them together in React. So I reconfigured the app to work with the React Router DOM, and I added several more card packs.</p>
       </div>
       <div className='project_links_container'>
       <h3 className='project_links_title'>Still want to see more about Kids Flashcards?</h3>

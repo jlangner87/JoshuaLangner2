@@ -24,7 +24,8 @@ function Alice() {
         </div>
       <div className='project_summary'>
         <h3 className='project_summary_title'>About Alice's Adventures</h3>
-        <p className='project_summary_body'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam rhoncus in lorem sit amet consectetur. Etiam porttitor risus sit amet lacinia volutpat. Maecenas semper pellentesque consectetur. Suspendisse placerat vitae neque at rhoncus. Proin mollis dapibus eros, nec vehicula est sollicitudin nec. Nullam dignissim sem nunc, at dictum dolor tempus nec. Ut ornare eros libero, vel malesuada mauris rutrum at.</p>
+        <p className='project_summary_body'>This project was an assignment for my software engineering immersive.</p>
+        <p className='project_summary_body'>Key learnings: Using control flow in Python and writing code users could interact with in the command line interface.</p>
       </div>
       <div className='project_links_container'>
       <h3 className='project_links_title'>Still want to see more about Alice's Adventures?</h3>

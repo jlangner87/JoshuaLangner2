@@ -31,7 +31,9 @@ function Dice() {
         </div>
       <div className='project_summary'>
         <h3 className='project_summary_title'>About RPG Dice Roller</h3>
-        <p className='project_summary_body'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam rhoncus in lorem sit amet consectetur. Etiam porttitor risus sit amet lacinia volutpat. Maecenas semper pellentesque consectetur. Suspendisse placerat vitae neque at rhoncus. Proin mollis dapibus eros, nec vehicula est sollicitudin nec. Nullam dignissim sem nunc, at dictum dolor tempus nec. Ut ornare eros libero, vel malesuada mauris rutrum at.</p>
+        <p className='project_summary_body'>Just before graduation, our instructor told us that we should do personal projects based on concepts that were challenging for us. At that point, React state management was that thing.</p>
+        <p className='project_summary_body'>I was at rehearsal for a play, and some cast members were playing a RPG in the greenroom. I thought <em>I could make an app that functions as a dice roller, AND I could hone in on my state management skills.</em> Win-win.</p>
+        <p className='project_summary_body'>I got a really good handle on state and Hooks doing this project, and it set me up for success. The Team Lindsay project came immediately after this one, and I was ready to tackle the state of a multi-part order form.</p>
       </div>
       <div className='project_links_container'>
       <h3 className='project_links_title'>Still want to see more about RPG Dice Roller?</h3>
