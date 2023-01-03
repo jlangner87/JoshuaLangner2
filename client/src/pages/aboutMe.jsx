@@ -37,8 +37,8 @@ function AboutMe() {
         <p className='page_content_body'>Aside from a developer, I am a husband and father living in rural Iowa. My passion hobby is theater. I am a playwright, director, and actor. It is a fun thing to do, but more than that— I have gained so many transferrable skills from this passion. I have learned how to effectively work with a diverse group to deliver the best possible product. I have learned the importance of giving my best to my areas of contribution. I have learned the process of taking an abstract concept and transforming it into a tangible product for the audience to enjoy.</p>
         <h3 className='page_content_subheader'>resume</h3>
         <p className='page_content_body'>Feel free to download a copy of my resume here. <br/>
-          <div class="btn btn-primary tooltip"><a href={resumePDF} download><img className='icon2' src={resume} alt="download resume" /></a>
-            <div class="top">
+          <div className="btn btn-primary tooltip"><a href={resumePDF} download><img className='icon2' src={resume} alt="download resume" /></a>
+            <div className="top">
               <h3>Download Resume</h3>
               <p>Created: 12/01/2022</p>
               <i></i>

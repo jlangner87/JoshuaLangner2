@@ -56,19 +56,19 @@ function Contact() {
        <form onSubmit={handleMessage} method="post" action="/">
       <div>
           <label for="name">
-            <span class="required">Name:</span> 
+            <span className="required">Name:</span> 
             <input onChange={handleChange} type="text" id="name" name="name" value={formState.name} placeholder="Your Name" required="required" tabindex="1" />
           </label> 
       </div>
       <div>
           <label for="email">
-            <span class="required">Email:</span>
+            <span className="required">Email:</span>
             <input onChange={handleChange} type="email" id="email" name="email" value={formState.email} placeholder="Your Email" tabindex="2" required="required" />
           </label>  
       </div>
       <div>             
           <label for="subject">
-          <span class="required">I am contacting you because...</span>
+          <span className="required">I am contacting you because...</span>
             <select onChange={handleChange} id="subject" name="subject" tabindex="4">   
               <option value="PROJECT ESTIMATE REQUEST">I need a project estimate!</option> 
               <option value="EMPLOYMENT OPPORTUNITY">I am hiring!</option>
@@ -78,7 +78,7 @@ function Contact() {
       </div>
       <div>             
           <label for="message">
-            <span class="required">Message:</span> 
+            <span className="required">Message:</span> 
             <textarea onChange={handleChange} id="message" name="message" placeholder="Please write your message here." tabindex="5" required="required" value={formState.message}></textarea> 
           </label>  
       </div>
@@ -90,29 +90,29 @@ function Contact() {
       </div>
       <h3 className='contact_header'>Or find me on any of these platforms.</h3>
       <div className='socials_container'>
-      <div class="btn btn-primary tooltip"><a href='mailto: joshua.langner.dev@gmail.com'><img src={emailLogo} alt="email link logo" className='social_icon'/></a>
-        <div class="top">
+      <div className="btn btn-primary tooltip"><a href='mailto: joshua.langner.dev@gmail.com'><img src={emailLogo} alt="email link logo" className='social_icon'/></a>
+        <div className="top">
           <h3>Email</h3>
           <p>joshua.langner.dev@gmail.com</p>
           <i></i>
         </div>
       </div>
-      <div class="btn btn-primary tooltip"><a href='https://www.linkedin.com/in/josh-langner/'><img src={linkedinLogo} alt="linked in link logo" className='social_icon'/></a>
-        <div class="top">
+      <div className="btn btn-primary tooltip"><a href='https://www.linkedin.com/in/josh-langner/'><img src={linkedinLogo} alt="linked in link logo" className='social_icon'/></a>
+        <div className="top">
           <h3>LinkedIn</h3>
           <p>@josh-langner</p>
           <i></i>
         </div>
       </div>
-      <div class="btn btn-primary tooltip"><a href='https://www.youtube.com/channel/UCQGVw18qWx3C6A3o0h7lspA'><img src={youtubelogo} alt="you tube link logo" className='social_icon'/></a>
-        <div class="top">
+      <div className="btn btn-primary tooltip"><a href='https://www.youtube.com/channel/UCQGVw18qWx3C6A3o0h7lspA'><img src={youtubelogo} alt="you tube link logo" className='social_icon'/></a>
+        <div className="top">
           <h3>YouTube</h3>
           <p>@Yeshua0687</p>
           <i></i>
         </div>
       </div>
-      <div class="btn btn-primary tooltip"><a href='https://github.com/jlangner87'><img src={gitlogo} alt="git hub link logo" className='social_icon'/></a> 
-        <div class="top">
+      <div className="btn btn-primary tooltip"><a href='https://github.com/jlangner87'><img src={gitlogo} alt="git hub link logo" className='social_icon'/></a> 
+        <div className="top">
           <h3>GitHub</h3>
           <p>@jlangner87</p>
           <i></i>
