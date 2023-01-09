@@ -4,6 +4,7 @@ import home from './project_images/home_icon.png'
 import recipes from './project_images/recipes.png'
 import repo from './project_images/repo.png'
 import link from './project_images/link.png'
+import video from './project_images/video_demo.png'
 import previous from './project_images/previous.png'
 import next from './project_images/next.png'
 import icon_react from './project_images/react.png'
@@ -50,6 +51,9 @@ function Recipes() {
         <a href='https://obscure-reef-40887.herokuapp.com/'>
           <img src={link} alt="internet icon label: deployed link" className='project_icon'/>
         </a>
+        <a href='https://youtu.be/nLbX0npgjlw'>
+          <img src={video} alt="youtube logo link: Video Demo" className='project_icon'/>
+        </a>
       </div>
       </div>
       <div className='project_nav_container'>
@@ -59,6 +63,7 @@ function Recipes() {
         <NavLink to='/portfolio/moderator_app'>
           <img src={next} alt="previous project icon" className='project_nav_icon'/>
         </NavLink>
+
       </div>
     </div>
   )

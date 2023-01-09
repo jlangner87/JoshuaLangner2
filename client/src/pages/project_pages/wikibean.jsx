@@ -12,6 +12,7 @@ import javascript from './project_images/javascript.png'
 import css from './project_images/css.png'
 import psql from './project_images/postgresql.png'
 import node from './project_images/node.png'
+import video from './project_images/video_demo.png'
 
 function WikiBean() {
   return (
@@ -49,6 +50,9 @@ function WikiBean() {
         </a>
         <a href='https://wikibean.netlify.app/'>
           <img src={link} alt="internet icon label: deployed link" className='project_icon'/>
+        </a>
+        <a href='https://youtu.be/Vz6ppOBLPCg'>
+          <img src={video} alt="youtube logo link: Video Demo" className='project_icon'/>
         </a>
       </div>
       </div>
