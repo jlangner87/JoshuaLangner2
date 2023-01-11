@@ -4,6 +4,7 @@ import emailLogo from '../elements/emaillogo.png'
 import gitlogo from '../elements/gitlogo.png'
 import youtubelogo from '../elements/youtube.png'
 import linkedinLogo from '../elements/linklogo.png'
+import facebookLogo from '../elements/facebook.png'
 import './Form.css'
 
 function Contact() {
@@ -90,34 +91,40 @@ function Contact() {
       </div>
       <h3 className='contact_header'>Or find me on any of these platforms.</h3>
       <div className='socials_container'>
-      <div className="btn btn-primary tooltip"><a href='mailto: joshua.langner.dev@gmail.com'><img src={emailLogo} alt="email link logo" className='social_icon'/></a>
-        <div className="top">
-          <h3>Email</h3>
-          <p>joshua.langner.dev@gmail.com</p>
-          <i></i>
-        </div>
-      </div>
+      <span data-tooltip="joshua.langner.dev@gmail.com" data-flow="bottom"><a href='mailto: joshua.langner.dev@gmail.com'><img src={emailLogo} alt="email link logo" className='social_icon'/></a></span>
       <div className="btn btn-primary tooltip"><a href='https://www.linkedin.com/in/josh-langner/'><img src={linkedinLogo} alt="linked in link logo" className='social_icon'/></a>
         <div className="top">
-          <h3>LinkedIn</h3>
+          {/* <h3>LinkedIn</h3>
           <p>@josh-langner</p>
-          <i></i>
+          <i></i> */}
         </div>
       </div>
       <div className="btn btn-primary tooltip"><a href='https://www.youtube.com/channel/UCQGVw18qWx3C6A3o0h7lspA'><img src={youtubelogo} alt="you tube link logo" className='social_icon'/></a>
         <div className="top">
-          <h3>YouTube</h3>
+          {/* <h3>YouTube</h3>
           <p>@Yeshua0687</p>
-          <i></i>
+          <i></i> */}
         </div>
       </div>
       <div className="btn btn-primary tooltip"><a href='https://github.com/jlangner87'><img src={gitlogo} alt="git hub link logo" className='social_icon'/></a> 
         <div className="top">
-          <h3>GitHub</h3>
+          {/* <h3>GitHub</h3>
           <p>@jlangner87</p>
-          <i></i>
+          <i></i> */}
         </div>
-      </div>  
+      </div> 
+      
+      <div class="btn btn-primary tooltip">
+        <a href='https://www.facebook.com/jlangner87'>
+          <img src={facebookLogo} alt="git hub link logo" className='social_icon'/>
+        </a>
+          <div class="top">
+            {/* <h3>Facebook</h3>
+            <p>@Joshua-Langner-Webdev</p>
+            <i></i> */}
+          </div>
+      </div>
+
       </div>
     </div>
   )

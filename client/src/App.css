@@ -9,9 +9,10 @@ body {
   background-color: #222222;
 }
 
-.tooltip {
+/* .tooltip {
   display:inline-block;
   position:relative;
+  border-bottom:1px dotted #666;
   text-align:left;
 }
 
@@ -22,11 +23,9 @@ body {
   transform:translate(-50%, -100%);
   padding:10px 20px;
   color:#EEE5E9;
-  font-family: 'Raleway', sans-serif;
-  line-height: 120%;
   background-color:#222222;
   font-weight:normal;
-  font-size:16px;
+  font-size:13px;
   border-radius:8px;
   position:absolute;
   z-index:99999999;
@@ -58,7 +57,7 @@ body {
   transform:translate(-50%,-50%) rotate(45deg);
   background-color:#222222;
   box-shadow:0 1px 8px rgba(0,0,0,0.5);
-}
+} */
 
 .icon {
   width: 25px;
@@ -480,8 +479,8 @@ form {
 }
 
 .social_icon {
-  width: 90px;
-  padding: 15px;
+  width: 80px;
+  padding: 10px;
 }
 
 .sample_container {
