@@ -2,6 +2,8 @@ import { NavLink } from 'react-router-dom'
 import home from '../elements/home_icon.png'
 import header from '../elements/portfolio_header.png'
 import Contact from '../components/contact'
+import amyross_sample1 from '../elements/amyross_sample1.png'
+import amyross_sample2 from '../elements/amyross_sample2.png'
 
 function Portfolios() {
 
@@ -19,6 +21,18 @@ function Portfolios() {
           No cookie cutter templates. No preset forms leaving out crucial information. Just 100% you!</p>
         <p className='services_content_action'>Smash some limits with me and showcase you the way you want to.<br/>Your vision! Your style! Your way!</p>
         <p className='services_content_note'>Pricing varies depending on the scope of the project. You can request a free estimate below.</p>
+      </div>
+      <div className='page_content'>
+        <h1 className='page_content_header'><span className='bracket'>&#123;</span> Sample Work <span className='bracket'>&#125;</span></h1>
+        <div className='sample_container'>
+          <h3 className='sample_title'>Tattoo Artist Portfolio</h3>
+          <p className='sample_text'>This professional portfolio website is custom-built to give the tattoo artist's work the exposure it deserves. It provides potential clients with a comprehensive overview of her skills, style, and portfolio. The mobile-first design allows for an easy-to-navigate layout that makes it simple to browse the artist's work and find what they're looking for.</p>
+          <div className='sample_image_container'>
+            <img src={amyross_sample2} className="sample"/>
+            <img src={amyross_sample1} className="sample"/>
+          </div>
+          <a className='sample_link' href='https://amyross-tattoo.netlify.app/'>Explore this site</a>
+        </div>
       </div>
       <div className='page_content'>
       <h1 className='page_content_header'><span className='bracket'>&#123;</span> Let's get started <span className='bracket'>&#125;</span></h1>

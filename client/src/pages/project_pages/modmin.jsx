@@ -52,7 +52,7 @@ function Modmin() {
       </div>
       </div>
       <div className='project_nav_container'>
-        <NavLink to='/portfolio/PERN_recipes'>
+        <NavLink to='/portfolio/tattoo'>
           <img src={previous} alt="previous project icon" className='project_nav_icon'/>
         </NavLink>
         <NavLink to='/portfolio/shop_spencer'>

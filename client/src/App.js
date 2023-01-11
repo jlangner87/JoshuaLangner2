@@ -17,6 +17,7 @@ import Caleb from './pages/project_pages/caleb'
 import Flashcards from './pages/project_pages/flashcards'
 import ShopSpencer from './pages/project_pages/shopping'
 import Modmin from './pages/project_pages/modmin'
+import Tattoo from './pages/project_pages/amyross'
 
 function App() {
   return (
@@ -38,6 +39,7 @@ function App() {
         <Route path="/portfolio/flashcards" element={<Flashcards />} />
         <Route path="/portfolio/shop_spencer" element={<ShopSpencer />} />
         <Route path="/portfolio/moderator_app" element={<Modmin />} />
+        <Route path="/portfolio/tattoo" element={<Tattoo />} />
       </Routes>
       <br></br>
       <Footer />

@@ -216,7 +216,7 @@ margin-left: -30px;
 .nav_tile {
   width: 325px;
   margin: 10px;
-  border-radius: 10%;
+  border-radius: 10px;
   border: 1px solid #EEE5E9;
 }
 
@@ -397,7 +397,6 @@ margin-left: -30px;
   margin: 5px auto 5px auto;
 }
 
-
 .skill_list {
   text-align: left;
   font-family: 'Libre Baskerville', serif;
@@ -483,6 +482,60 @@ form {
 .social_icon {
   width: 90px;
   padding: 15px;
+}
+
+.sample_container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.sample_title {
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+  font-size: 20px;
+  padding: 5px;
+  color: #73009d;
+  margin-bottom: 5px;
+  width: 80%;
+}
+
+.sample_text {
+  width: 75%;
+  text-align: left;
+  padding: 30px;
+  font-family: 'Libre Baskerville', serif;
+  line-height: 1.5;
+}
+
+.sample_image_container {
+  display: flex;
+  flex-direction: row; flex-wrap: wrap;
+  justify-content: center;
+}
+
+.sample {
+  width: 30vw;
+  margin: 10px 20px 30px 20px;
+}
+
+.sample_link {
+  width: fit-content;
+  padding: 20px;
+  font-family: 'Raleway', sans-serif;
+  line-height: 1.5;
+  color: #99F7AB;
+  background-color: #222222;
+  text-transform: uppercase;
+  font-size: 28px;
+  border: 2px solid #99F7AB;
+  margin-bottom: 20px;
+}
+
+.sample_link:hover {
+  background-color: #99F7AB;
+  color: #222222;
 }
 
 .footer {
