@@ -26,19 +26,19 @@ function App() {
       <Routes>
         <Route path="/" element={<Splash />} />
         <Route path="/portfolio" element={<AboutMe />} />
-        <Route path="/business_sites" element={<BusinessSites />} />
-        <Route path="/event_pages" element={<EventPages />} />
-        <Route path="/portfolio_pages" element={<Portfolios />} />
-        <Route path="/portfolio/alice_python" element={<Alice />} />
-        <Route path="/portfolio/rpg_dice" element={<Dice />} />
-        <Route path="/portfolio/order_form" element={<Lindsay />} />
-        <Route path="/portfolio/PERN_recipes" element={<Recipes />} />
-        <Route path="/portfolio/PERN_wikibean" element={<WikiBean />} />
-        <Route path="/portfolio/vue_rock-paper-scissors" element={<RpsVue />} />
-        <Route path="/portfolio/teacher_portfolio" element={<Caleb />} />
+        <Route path="/business-sites" element={<BusinessSites />} />
+        <Route path="/event-pages" element={<EventPages />} />
+        <Route path="/portfolio-pages" element={<Portfolios />} />
+        <Route path="/portfolio/alice-python" element={<Alice />} />
+        <Route path="/portfolio/rpg-dice" element={<Dice />} />
+        <Route path="/portfolio/order-form" element={<Lindsay />} />
+        <Route path="/portfolio/PERN-recipes" element={<Recipes />} />
+        <Route path="/portfolio/PERN-wikibean" element={<WikiBean />} />
+        <Route path="/portfolio/vue-rock-paper-scissors" element={<RpsVue />} />
+        <Route path="/portfolio/teacher-portfolio" element={<Caleb />} />
         <Route path="/portfolio/flashcards" element={<Flashcards />} />
-        <Route path="/portfolio/shop_spencer" element={<ShopSpencer />} />
-        <Route path="/portfolio/moderator_app" element={<Modmin />} />
+        <Route path="/portfolio/shop-spencer" element={<ShopSpencer />} />
+        <Route path="/portfolio/moderator-app" element={<Modmin />} />
         <Route path="/portfolio/tattoo" element={<Tattoo />} />
       </Routes>
       <br></br>

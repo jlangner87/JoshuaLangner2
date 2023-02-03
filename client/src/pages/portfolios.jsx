@@ -1,4 +1,5 @@
 import { NavLink } from 'react-router-dom'
+import { Helmet } from 'react-helmet'
 import home from '../elements/home_icon.png'
 import header from '../elements/portfolio_header.png'
 import Contact from '../components/contact'
@@ -9,8 +10,13 @@ function Portfolios() {
 
   return (
     <div className="page">
+      <Helmet>
+        <title>Joshua Langner WebDev | Portfolio Websites</title>
+        <meta name='description' content='Contact Joshua Langner WebDev to get your portfolio website started today/' ></meta>
+      </Helmet>
       <NavLink to='/'> <img src={home} alt="navigate home" className='icon'/> </NavLink>
-      <img src={header} alt="professional portfolio site development service" className='header_logo'/>
+      <img src={header} alt="professional portfolio website development service" className='header_logo'/>
+      <h1 className='page_title'>professional portfolio website development service</h1>
       <div className='page_content'>
         <h1 className='page_content_header'><span className='bracket'>&#123;</span> Showcase you <span className='bracket'>&#125;</span></h1>
         <p className='services_content_catch'>Whether you are a creative running a freelance gig or a business professional climbing the corporate ladder, you’ve got mad skills! And you <em>deserve</em> to show them off!</p>

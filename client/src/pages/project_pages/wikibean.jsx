@@ -57,10 +57,10 @@ function WikiBean() {
       </div>
       </div>
       <div className='project_nav_container'>
-        <NavLink to='/portfolio/rpg_dice'>
+        <NavLink to='/portfolio/rpg-dice'>
           <img src={previous} alt="previous project icon" className='project_nav_icon'/>
         </NavLink>
-        <NavLink to='/portfolio/vue_rock-paper-scissors'>
+        <NavLink to='/portfolio/vue-rock-paper-scissors'>
           <img src={next} alt="previous project icon" className='project_nav_icon'/>
         </NavLink>
       </div>

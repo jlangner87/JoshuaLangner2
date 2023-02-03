@@ -1,4 +1,5 @@
 import { NavLink } from 'react-router-dom'
+import { Helmet } from 'react-helmet'
 import home from '../elements/home_icon.png'
 import header from '../elements/events_header.png'
 import Contact from '../components/contact'
@@ -7,8 +8,12 @@ import Contact from '../components/contact'
 function EventPages() {
   return (
     <div className="page">
+      <Helmet>
+        <title>Joshua Langner WebDev | Event Pages</title>
+      </Helmet>
       <NavLink to='/'> <img src={home} alt="navigate home" className='icon'/> </NavLink>
       <img src={header} alt="wedding and event pages development service" className='header_logo'/>
+      <h1 className='page_title'>Wedding and event pages development service</h1>
       <div className='page_content'>
         <h1 className='page_content_header'><span className='bracket'>&#123;</span> Simplify Your Day <span className='bracket'>&#125;</span></h1>
         <p className='services_content_catch'>For whatever occasion you are celebrating, <em>congratulations!</em> It is your big day, and you <em>deserve</em> for it to be simple and enjoyable!</p>

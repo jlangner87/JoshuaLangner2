@@ -26,9 +26,9 @@ function Splash() {
       </div>
       <div className='splash_nav'>
       <NavLink to='/portfolio'><img src={aboutNav} alt="about me resume and portfolo" className='nav_tile'/></NavLink>
-      <NavLink to='/business_sites'><img src={businessNav} alt="services: business websites" className='nav_tile'/></NavLink>
-      <NavLink to='/portfolio_pages'><img src={portfoloNav} alt="services: professional portfolios" className='nav_tile'/></NavLink>
-      <NavLink to='/event_pages'><img src={weddingNav} alt="services: wedding and event pages" className='nav_tile'/></NavLink>
+      <NavLink to='/business-sites'><img src={businessNav} alt="services: business websites" className='nav_tile'/></NavLink>
+      <NavLink to='/portfolio-pages'><img src={portfoloNav} alt="services: professional portfolios" className='nav_tile'/></NavLink>
+      <NavLink to='/event-pages'><img src={weddingNav} alt="services: wedding and event pages" className='nav_tile'/></NavLink>
       </div>
 
     </div>

@@ -50,7 +50,7 @@ function Dice() {
         <NavLink to='/portfolio/flashcards'>
           <img src={previous} alt="navigate to previous project" className='project_nav_icon'/>
         </NavLink>
-        <NavLink to='/portfolio/PERN_wikibean'>
+        <NavLink to='/portfolio/PERN-wikibean'>
           <img src={next} alt="navigate to next project" className='project_nav_icon'/>
         </NavLink>
       </div>

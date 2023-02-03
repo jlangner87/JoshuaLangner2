@@ -36,10 +36,10 @@ function Alice() {
       </div>
       </div>
       <div className='project_nav_container'>
-        <NavLink to='/portfolio/vue_rock-paper-scissors'>
+        <NavLink to='/portfolio/vue-rock-paper-scissors'>
           <img src={previous} alt="navigate to previous project" className='project_nav_icon'/>
         </NavLink>
-        <NavLink to='/portfolio/PERN_recipes'>
+        <NavLink to='/portfolio/PERN-recipes'>
           <img src={next} alt="navigate to next project" className='project_nav_icon'/>
         </NavLink>
       </div>

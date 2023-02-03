@@ -1,4 +1,5 @@
 import { NavLink } from 'react-router-dom'
+import { Helmet } from 'react-helmet'
 import home from '../elements/home_icon.png'
 import header from '../elements/business_header.png'
 import Contact from '../components/contact'
@@ -6,8 +7,12 @@ import Contact from '../components/contact'
 function BusinessSites() {
   return (
     <div className="page">
+          <Helmet>
+            <title>Joshua Langner WebDev | Business Websites</title>
+          </Helmet>
       <NavLink to='/'> <img src={home} alt="navigate home" className='icon'/> </NavLink>
       <img src={header} alt="business website development service" className='header_logo'/>
+      <h1 className='page_title'>Busienss Website Development Service</h1>
       <div className='page_content'>
         <h1 className='page_content_header'><span className='bracket'>&#123;</span> Elevate Your Business <span className='bracket'>&#125;</span></h1>
         <p className='services_content_catch'>The local men and women who pour themselves into their businesses and non-profits are the backbone of our communities. And you <em>deserve</em> to have those efforts supported with the best tools. </p>

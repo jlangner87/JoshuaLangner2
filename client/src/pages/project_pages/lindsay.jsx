@@ -52,7 +52,7 @@ function Lindsay() {
       </div>
       </div>
       <div className='project_nav_container'>
-        <NavLink to='/portfolio/teacher_portfolio'>
+        <NavLink to='/portfolio/teacher-portfolio'>
           <img src={previous} alt="navigate to previous project" className='project_nav_icon'/>
         </NavLink>
         <NavLink to='/portfolio/flashcards'>

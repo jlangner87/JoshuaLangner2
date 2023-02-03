@@ -49,10 +49,10 @@ function Tattoo() {
       </div>
       </div>
       <div className='project_nav_container'>
-        <NavLink to='/portfolio/teacher_portfolio/PERN_recipes'>
+        <NavLink to='/portfolio/PERN-recipes'>
           <img src={previous} alt="navigate to previous project" className='project_nav_icon'/>
         </NavLink>
-        <NavLink to='/portfolio/moderator_app'>
+        <NavLink to='/portfolio/moderator-app'>
           <img src={next} alt="navigate to next project" className='project_nav_icon'/>
         </NavLink>
       </div>

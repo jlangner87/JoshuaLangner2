@@ -55,7 +55,7 @@ function Modmin() {
         <NavLink to='/portfolio/tattoo'>
           <img src={previous} alt="previous project icon" className='project_nav_icon'/>
         </NavLink>
-        <NavLink to='/portfolio/shop_spencer'>
+        <NavLink to='/portfolio/shop-spencer'>
           <img src={next} alt="previous project icon" className='project_nav_icon'/>
         </NavLink>
       </div>

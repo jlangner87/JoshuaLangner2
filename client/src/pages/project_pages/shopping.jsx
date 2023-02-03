@@ -50,10 +50,10 @@ function ShopSpencer() {
       </div>
       </div>
       <div className='project_nav_container'>
-        <NavLink to='/portfolio/moderator_app'>
+        <NavLink to='/portfolio/moderator-app'>
           <img src={previous} alt="previous project icon" className='project_nav_icon'/>
         </NavLink>
-        <NavLink to='/portfolio/teacher_portfolio'>
+        <NavLink to='/portfolio/teacher-portfolio'>
           <img src={next} alt="previous project icon" className='project_nav_icon'/>
         </NavLink>
       </div>

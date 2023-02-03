@@ -1,6 +1,6 @@
 import { NavLink } from 'react-router-dom'
 import { HashLink } from 'react-router-hash-link'
-import { useEffect } from 'react'
+import { Helmet } from 'react-helmet'
 import SlideShow from '../components/slides'
 import Contact from '../components/contact'
 import header from '../elements/me_header.png'
@@ -23,6 +23,9 @@ import resumePDF from '../elements/Jlangner_resume.pdf'
 function AboutMe() {
   return (
     <div className="page">
+           <Helmet>
+            <title>Joshua Langner | Portfolio</title>
+          </Helmet>
             <NavLink to='/'> <img src={home} alt="navigate home" className='icon' id='#top'/> </NavLink>
       <img src={header} alt="headshot and title Joshua Langner Software engineer" className='header_logo'/>
       <div className='page_content'>
@@ -64,8 +67,8 @@ function AboutMe() {
             <p className='skill'>React.Js</p>
             <p className='skill'>Vue.Js</p>
             <p className='skill'>Responsive Design</p>
-            <p className='skill'>Accessible Design</p>
-            <p className='skill'>Bootstrap</p>
+            <p className='skill'>ADA Accessible Design</p>
+            <p className='skill'>Search Engine Optimization (SEO)</p>
           </div>
           <div className='skill_list'>
             <h3 className='skill_header'>Backend</h3>
@@ -100,17 +103,17 @@ function AboutMe() {
         <div className='continuing_ed'>
         <p className='continuing_ed_subject'>Data Science Foundations</p>
         <p className='continuing_ed_attribute'>Online Course</p>
-        <p className='continuing_ed_attribute'>Codecademy</p>
+        <p className='continuing_ed_attribute'><a href='https://www.codecademy.com/learn/paths/data-science-foundations'>CodeCademy</a></p>
         </div>
         <div className='continuing_ed'>
-        <p className='continuing_ed_subject'>The Design of Everyday Things</p>
-        <p className='continuing_ed_attribute'>Reading Material</p>
-        <p className='continuing_ed_attribute'>By: Don Norman</p>
+        <p className='continuing_ed_subject'>Search Engine Optimization</p>
+        <p className='continuing_ed_attribute'>Online Course</p>
+        <p className='continuing_ed_attribute'><a href='https://app.hubspot.com/academy/23941934/tracks/25/1006819/3609'>HubSpot Academy</a></p>
         </div>
         <div className='continuing_ed'>
         <p className='continuing_ed_subject'>Color Theory and Design</p>
         <p className='continuing_ed_attribute'>Online Course</p>
-        <p className='continuing_ed_attribute'>Codecademy</p>
+        <p className='continuing_ed_attribute'><a href='https://www.codecademy.com/learn/learn-color-design'>CodeCademy</a></p>
         </div>
         </div>
         <div className='skills_container'>

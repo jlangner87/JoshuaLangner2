@@ -44,10 +44,10 @@ function Flashcards () {
       </div>
       </div>
       <div className='project_nav_container'>
-        <NavLink to='/portfolio/order_form'>
+        <NavLink to='/portfolio/order-form'>
           <img src={previous} alt="navigate to previous project" className='project_nav_icon'/>
         </NavLink>
-        <NavLink to='/portfolio/rpg_dice'>
+        <NavLink to='/portfolio/rpg-dice'>
           <img src={next} alt="navigate to next project" className='project_nav_icon'/>
         </NavLink>
       </div>

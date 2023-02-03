@@ -53,10 +53,10 @@ function Caleb() {
       </div>
       </div>
       <div className='project_nav_container'>
-        <NavLink to='/portfolio/shop_spencer'>
+        <NavLink to='/portfolio/shop-spencer'>
           <img src={previous} alt="navigate to previous project" className='project_nav_icon'/>
         </NavLink>
-        <NavLink to='/portfolio/order_form'>
+        <NavLink to='/portfolio/order-form'>
           <img src={next} alt="navigate to next project" className='project_nav_icon'/>
         </NavLink>
       </div>
