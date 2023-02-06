@@ -27,7 +27,7 @@ function SlideShow() {
   </div>
 
 <div className='slide_container'>
-  <HashLink to='/portfolio/moderator_app'>
+  <HashLink to='/portfolio/moderator-app'>
   <h3 className='slide_title'>Moderator Application</h3>
   <h4 className='slide_subtitle'>React Forms</h4>
   <img src={modmin} alt="online application form for moderators of a facebook group" className='slide'/>
