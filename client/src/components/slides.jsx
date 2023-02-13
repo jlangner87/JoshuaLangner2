@@ -36,7 +36,7 @@ function SlideShow() {
   </div>
 
 <div className='slide_container'>
-  <HashLink to='/portfolio/shop_spencer'>
+  <HashLink to='/portfolio/shop-spencer'>
   <h3 className='slide_title'>Vierual Shopping Spree</h3>
   <h4 className='slide_subtitle'>Static React Application</h4>
   <img src={shopping} alt="shop spencer list of businesses offering electronic gift cards" className='slide'/>
@@ -45,7 +45,7 @@ function SlideShow() {
   </div>
 
 <div className='slide_container'>
-  <HashLink to='/portfolio/teacher_portfolio'>
+  <HashLink to='/portfolio/teacher-portfolio'>
   <h3 className='slide_title'>Teaching Portfolio</h3>
   <h4 className='slide_subtitle'>Static React Application</h4>
   <img src={caleb} alt="caleb landner: teaching portfolio" className='slide'/>
@@ -53,7 +53,7 @@ function SlideShow() {
   </HashLink>
   </div>
 <div className='slide_container'>
-  <HashLink to='/portfolio/order_form#top'>
+  <HashLink to='/portfolio/order-form'>
   <h3 className='slide_title'>Team Lindsay</h3>
   <h4 className='slide_subtitle'>React Forms</h4>
   <img src={lindsay} alt="team lindsay order form app" className='slide'/>
@@ -62,7 +62,7 @@ function SlideShow() {
 </div>
 
 <div className='slide_container'>
-  <HashLink to='/portfolio/order_form#top'>
+  <HashLink to='/portfolio/flashcards'>
   <h3 className='slide_title'>Flashcards for Kids</h3>
   <h4 className='slide_subtitle'>Static React Application</h4>
   <img src={mathcard} alt="flash card: multiply numbers by 5. 7 times 5 = quesion mark" className='slide'/>
