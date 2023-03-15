@@ -1,0 +1,91 @@
+@media only screen and (max-width: 580px){
+.blog {
+  padding-bottom: 15px;
+}
+
+.blog_header_container {
+  width: 100%;
+  background-color: rgb(246, 243, 243);
+}
+
+.blog_header {
+  width: 95%;
+  font-size: 36px;
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
+
+.blog_subheader {
+  width: 95%;
+  font-size: 24px;
+  padding: 10px;
+}
+
+.blog_timestamp {
+  width: 95%;
+  font-size: 14px;
+  padding-bottom: 15px;
+}
+
+.blog_banner {
+  width: 95%;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.blog_content_container {
+  width: 95%;
+  margin: 15px auto 8px auto;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.blog_section_header {
+  width: 90%;
+  font-size: 22px;
+  padding-bottom: 10px;
+  margin-top: 5px;
+}
+
+.blog_content {
+  width: 90%;
+  text-align: left;
+  font-size: 18px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.page_break {
+  font-size: 32px;
+  padding-bottom: 25px;
+}
+
+.blog_section_image{
+  width: 95%;
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+
+.share_container {
+  width: 95%;
+  padding-top: 10px;
+  border: 1px solid black;
+  margin: 15px auto 5px auto;
+}
+
+.share_header {
+  padding-bottom: 15px;
+  font-size: 16px;
+  font-weight: 200;
+}
+
+.icon_container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.share_icon {
+  padding: 8px;
+  width: 40px;
+}
+}
