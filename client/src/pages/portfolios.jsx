@@ -11,8 +11,16 @@ function Portfolios() {
   return (
     <div className="page">
       <Helmet>
-        <title>Joshua Langner WebDev | Portfolio Websites</title>
-        <meta name='description' content='Contact Joshua Langner WebDev to get your portfolio website started today/' ></meta>
+      <title>Joshua Langner WebDev | Professional Portfolios</title>
+      <meta name="description" content="A custom portfolio site is a simple way to gather all of your best work and professional information in one place and show it off."/>
+      <link rel="icon" type="image/x-icon" href="./favicon.png"/>
+      <meta property="og:title" content="Joshua Langner | Portfolios"/>
+      <meta property="og:url" content="https://joshua-langner.com/portfolio-pages"/>
+      <meta property="og:type" content="website"/>
+      <meta property="og:description" content="Whether you are a creative running a freelance gig or a business professional climbing the corporate ladder, you’ve got mad skills! And you deserve to show them off!"/>
+      <meta property="og:image" content="https://joshua-langner.com/static/media/portfolios.8e3f54a7bcd6a061b98b.png"/>
+      <meta property="og:image:height" content="1200"/>
+      <meta property="og:image:width" content="1200"/>
       </Helmet>
       <NavLink to='/'> <img src={home} alt="navigate home" className='icon'/> </NavLink>
       <img src={header} alt="professional portfolio website development service" className='header_logo'/>

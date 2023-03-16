@@ -7,9 +7,18 @@ import Contact from '../components/contact'
 function BusinessSites() {
   return (
     <div className="page">
-          <Helmet>
-            <title>Joshua Langner WebDev | Business Websites</title>
-          </Helmet>
+           <Helmet>
+      <title>Joshua Langner WebDev | Business Websites</title>
+      <meta name="description" content="A custom business site is a simple way to create touch points with your customers or clients to engage with them in the ways that your business uniquely needs."/>
+      <link rel="icon" type="image/x-icon" href="./favicon.png"/>
+      <meta property="og:title" content="Joshua Langner | Business Websites"/>
+      <meta property="og:url" content="https://joshua-langner.com/business-sites"/>
+      <meta property="og:type" content="website"/>
+      <meta property="og:description" content="The local men and women who pour themselves into their businesses and non-profits are the backbone of our communities. And you deserve to have those efforts supported with the best tools."/>
+      <meta property="og:image" content="https://joshua-langner.com/static/media/business.4eb4df115dd94e8bb0aa.png"/>
+      <meta property="og:image:height" content="1200"/>
+      <meta property="og:image:width" content="1200"/>
+      </Helmet>
       <NavLink to='/'> <img src={home} alt="navigate home" className='icon'/> </NavLink>
       <img src={header} alt="business website development service" className='header_logo'/>
       <h1 className='page_title'>Busienss Website Development Service</h1>

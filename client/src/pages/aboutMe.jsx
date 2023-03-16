@@ -23,9 +23,18 @@ import resumePDF from '../elements/Jlangner_resume.pdf'
 function AboutMe() {
   return (
     <div className="page">
-           <Helmet>
-            <title>Joshua Langner | Portfolio</title>
-          </Helmet>
+      <Helmet>
+      <title>Joshua Langner WebDev | About Me</title>
+      <meta name="description" content="I am a software engineer with a background in technical support, sales, and leadership in the electronics and cellular industry"/>
+      <link rel="icon" type="image/x-icon" href="./favicon.png"/>
+      <meta property="og:title" content="Joshua Langner | About ME"/>
+      <meta property="og:url" content="https://joshua-langner.com/portfolio"/>
+      <meta property="og:type" content="portfolio"/>
+      <meta property="og:description" content="I am a software engineer with a background in technical support, sales, and leadership in the electronics and cellular industry"/>
+      <meta property="og:image" content="https://joshua-langner.com/static/media/aboutme.aa908ccf15b4894a31e4.png"/>
+      <meta property="og:image:height" content="1200"/>
+      <meta property="og:image:width" content="1200"/>
+      </Helmet>
             <NavLink to='/'> <img src={home} alt="navigate home" className='icon' id='#top'/> </NavLink>
       <img src={header} alt="headshot and title Joshua Langner Software engineer" className='header_logo'/>
       <div className='page_content'>

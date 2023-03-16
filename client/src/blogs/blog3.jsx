@@ -1,7 +1,7 @@
 import "./styles/blog-desktop.css"
 import "./styles/blog-mobile.css"
 import { NavLink } from 'react-router-dom'
-import { HelmetTags } from 'react-helmet'
+import { Helmet } from 'react-helmet'
 import {EmailShareButton, FacebookShareButton, LinkedinShareButton, RedditShareButton, TwitterShareButton} from "react-share";
 import {EmailIcon, FacebookIcon, FacebookMessengerIcon, LinkedinIcon, RedditIcon, TwitterIcon} from "react-share";
 import { ElfsightWidget } from "react-elfsight-widget";
@@ -13,18 +13,21 @@ import subheader4 from "./assets/adhd1/adhd-subheader4.png"
 import subheader5 from "./assets/adhd1/adhd-subheader5.png"
 import subheader6 from "./assets/adhd1/adhd-subheader6.png"
 
-function Blog3(props) {
+function Blog3() {
   return (
     <div className="blog">
-      <HelmetTags>
+      <Helmet>
+      <title>ADHD Brain | Working from Home</title>
+      <meta name="description" content="6 Game Changing Tricks that Helped Me Conquer Working From Home with ADHD"/>
+      <link rel="icon" type="image/x-icon" href="./favicon.png"/>
       <meta property="og:title" content="ADHD Brain | Working from Home"/>
       <meta property="og:url" content="https://joshua-langner.com/blogs/adhd-working-from-home"/>
-      <meta property="og:type" content="blog"/>
-      <meta property="og:description" content="Blog | Services | Portfolio6 Game Changing Tricks that Helped Me Conquer Working From Home with ADHD"/>
-      <meta property="og:image" content="https://joshua-langner.com/static/media/adhd-header1.8cc5a24ce649d88fde39.png"/>
+      <meta property="og:type" content="article"/>
+      <meta property="og:description" content="6 Game Changing Tricks that Helped Me Conquer Working From Home with ADHD"/>
+      <meta property="og:image" content="http://localhost:3000/static/media/adhd-header1.8cc5a24ce649d88fde39.png"/>
       <meta property="og:image:height" content="1200"/>
       <meta property="og:image:width" content="1200"/>
-      </HelmetTags>
+      </Helmet>
       <div className="blog_header_container">
         <h1 className='blog_header'>ADHD Brain | Working from Home</h1>
         <h2 className='blog_subheader'>6 Game Changing Tricks that Helped Me Conquer Working From Home with ADHD</h2>
