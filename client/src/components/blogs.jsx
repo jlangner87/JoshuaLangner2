@@ -26,8 +26,8 @@ function Blogs() {
         <div className='blog_container'>
           <a href='https://joshua-langner.com/blogs/adhd-working-from-home'>
             <img src="https://joshua-langner.com/static/media/adhd-header1.8cc5a24ce649d88fde39.png" alt="Title: ADHD Brain: Working from Home. By Joshua Langner" className='blog_image'/>
+            <h2 className='blog_title'>ADHD Brain | Working from Home </h2>
           </a>
-          <h2 className='blog_title'>ADHD Brain | Working from Home </h2>
           <p className='blog_meta_description'>Working from home can be a challenge for anyone—especially those of us with ADHD. In this article, I cover 6 tricks I have discovered that changed the way I worked from home!</p>
           <p className='blog_meta_description'><br/>Created: Mar. 15, 2023</p>
         </div>
