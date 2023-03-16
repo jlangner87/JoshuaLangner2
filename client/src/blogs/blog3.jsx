@@ -1,11 +1,10 @@
 import "./styles/blog-desktop.css"
 import "./styles/blog-mobile.css"
 import { NavLink } from 'react-router-dom'
-import { Helmet } from 'react-helmet'
+import { HelmetTags } from 'react-helmet'
 import {EmailShareButton, FacebookShareButton, LinkedinShareButton, RedditShareButton, TwitterShareButton} from "react-share";
 import {EmailIcon, FacebookIcon, FacebookMessengerIcon, LinkedinIcon, RedditIcon, TwitterIcon} from "react-share";
 import { ElfsightWidget } from "react-elfsight-widget";
-import logo from "./assets/favicon.png"
 import header from "./assets/adhd1/adhd-header1.png"
 import subheader1 from "./assets/adhd1/adhd-subheader1.png"
 import subheader2 from "./assets/adhd1/adhd-subheader2.png"
@@ -14,21 +13,18 @@ import subheader4 from "./assets/adhd1/adhd-subheader4.png"
 import subheader5 from "./assets/adhd1/adhd-subheader5.png"
 import subheader6 from "./assets/adhd1/adhd-subheader6.png"
 
-function Blog3() {
+function Blog3(props) {
   return (
     <div className="blog">
-      <Helmet>
-        <title>ADHD Brain | Working from Home </title>
-        <link rel="icon" type="image/x-icon" href={logo}/>
-        <meta name="description" content="6 Game Changing Tricks that Helped Me Conquer Working From Home with ADHD"/>
-        <meta property="og:title" content="ADHD BRAIN | Working from Home"/>
-        <meta property="og:url" content="https://joshua-langner.com/blogs/adhd-working-from-home"/>
-        <meta property="og:type" content="blog"/>
-        <meta property="og:description" content="6 Game Changing Tricks that Helped Me Conquer Working From Home with ADHD"/>
-        <meta property="og:image" content={logo}/>
-        <meta property="og:image:height" content="1200"/>
-        <meta property="og:image:width" content="1200"/>
-      </Helmet>
+      <HelmetTags>
+      <meta property="og:title" content="ADHD Brain | Working from Home"/>
+      <meta property="og:url" content="https://joshua-langner.com/blogs/adhd-working-from-home"/>
+      <meta property="og:type" content="blog"/>
+      <meta property="og:description" content="Blog | Services | Portfolio6 Game Changing Tricks that Helped Me Conquer Working From Home with ADHD"/>
+      <meta property="og:image" content="https://joshua-langner.com/static/media/adhd-header1.8cc5a24ce649d88fde39.png"/>
+      <meta property="og:image:height" content="1200"/>
+      <meta property="og:image:width" content="1200"/>
+      </HelmetTags>
       <div className="blog_header_container">
         <h1 className='blog_header'>ADHD Brain | Working from Home</h1>
         <h2 className='blog_subheader'>6 Game Changing Tricks that Helped Me Conquer Working From Home with ADHD</h2>
@@ -97,8 +93,9 @@ function Blog3() {
         <p className='blog_content'>Whether you work from home or not, one of the most beneficial things anyone with ADHD can do is to find your tribe. This whole thing isn’t as uncommon as I grew up thinking. There are millions of adults out there who have been there and done that.</p>
         <p className='blog_content'>There are a lot of support groups out there. Men’s ADHD Support Group is the tribe I found myself in. This group has been an amazing support in my journey over the last year. They can be found on the <a href="https://www.mensadhdsupportgroup.org/">Men’s ADHD Support Group Website</a> or on their <a href="https://www.facebook.com/groups/mensadhdsupportgroup">Facebook Page</a>.</p>
         <p className='blog_content'>It is extremely validating to engage other adults who have a shared experience with you. It’s like <em>What? I am not one who has brain bees!?</em> Not only is support from someone who just gets it, but there is also something deeply fulfilling about being that support for someone else. Wherever you find your tribe, plug yourself in. Find support, and be support for someone else.</p>
+        <p className="blog_content"><em>If you have any groups that you would like to recommend, let me know. I will update this post to include them.</em></p>
         <p className="page_break">. . .</p>
-        <p className='blog_content'>Now, I know that every brain is different, and all of these might not be for everyone, and that is okay. These are just some of the things that have been helpful for me. If you try these out, I would love to hear how they worked for you. I would also love to hear some of your own tips and tricks for working from home with ADHD. You can contact me by dropping a message on <a href='https://joshua-langner.com'>My Website</a>.</p>
+        <p className='blog_content'>Now, I know that every brain is different, and all of these might not be for everyone, and that is okay. These are just some of the things that have been helpful for me. If you try these out, I would love to hear how they worked for you. I would also love to hear some of your own tips and tricks for working from home with ADHD. You can comment below or contact me by dropping a message on <a href='https://joshua-langner.com'>My Website</a>.</p>
         <p className="disclosure">When you buy something using the links in my stories, I may earn a small commission from the Amazon Affiliates program. I only link to products that I have purchaced and love. Learn more <a href="https://affiliate-program.amazon.com/help/node/topic/GRXPHT8U84RAYDXZ"><b>here</b></a>.</p>
         <div className="share_container">
           <h3 className="share_header">Like this content? Share it here!</h3>

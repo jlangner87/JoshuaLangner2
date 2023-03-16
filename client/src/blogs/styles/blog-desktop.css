@@ -128,7 +128,7 @@
 
 .comment_container {
   width: 60%;
-  margin-bottom: 30px;
+  margin: 60px auto 30px auto;
 }
 
 .home_button {
