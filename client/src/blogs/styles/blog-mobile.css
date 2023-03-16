@@ -106,4 +106,8 @@
 .disclosure a {
   font-size: 14px;
 }
+
+.comment_container {
+  width: 95%;
+}
 }

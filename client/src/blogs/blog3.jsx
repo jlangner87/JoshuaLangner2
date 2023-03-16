@@ -4,6 +4,7 @@ import { NavLink } from 'react-router-dom'
 import { Helmet } from 'react-helmet'
 import {EmailShareButton, FacebookShareButton, LinkedinShareButton, RedditShareButton, TwitterShareButton} from "react-share";
 import {EmailIcon, FacebookIcon, FacebookMessengerIcon, LinkedinIcon, RedditIcon, TwitterIcon} from "react-share";
+import { ElfsightWidget } from "react-elfsight-widget";
 import logo from "./assets/favicon.png"
 import header from "./assets/adhd1/adhd-header1.png"
 import subheader1 from "./assets/adhd1/adhd-subheader1.png"
@@ -147,6 +148,11 @@ function Blog3() {
           </EmailShareButton>
           </div>
         </div>
+        <div className="comment_container">
+        <h3 className="share_header">Join the conversation!</h3>
+          <ElfsightWidget widgetID="7379af5f-50e5-41c0-8374-7b8a29a9d641" />
+        </div>
+        <NavLink className="home_button" to="/">Home</NavLink>
       </div>
     </div>
   )

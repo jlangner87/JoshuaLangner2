@@ -96,7 +96,7 @@
 .share_container {
   width: 65%;
   padding-top: 20px;
-  margin: 80px auto 10px auto;
+  margin: 60px auto 20px auto;
 }
 
 .share_header {
@@ -124,4 +124,17 @@
 .disclosure a {
   color: black;
   font-size: 16px;
+}
+
+.comment_container {
+  width: 60%;
+  margin-bottom: 30px;
+}
+
+.home_button {
+  width: fit-content;
+  padding: 10px;
+  background-color: rgb(210, 210, 210);
+  border: 1px solid gray;
+  border-radius: 10px;
 }
