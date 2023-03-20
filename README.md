@@ -2,13 +2,12 @@
 
 ---
 
-# Joshua Langner
-## Blog | Services | Portfolio
+### Website: Blog | Services | Portfolio
 
 ---
 
 Developer: Joshua Langner
-[GitHub](https://github.com/jlangner87) [LinkedIn](https://www.linkedin.com/in/josh-langner/) [Portfolio](https://joshua-langner.com)
+[GitHub](https://github.com/jlangner87) | [LinkedIn](https://www.linkedin.com/in/josh-langner/) | [Portfolio](https://joshua-langner.com)
 ___
 
 ### [Deployed Link](https://joshua-langner.com)
