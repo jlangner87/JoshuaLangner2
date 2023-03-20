@@ -17,6 +17,8 @@ import typescript from '../elements/typescript.png'
 import vue from '../elements/vue.png'
 import html from '../elements/html.png'
 import css from '../elements/css.png'
+import ruby from '../elements/ruby.png'
+import rails from '../elements/rails.png'
 import resume from '../elements/resume.png'
 import resumePDF from '../elements/Jlangner_resume.pdf'
 
@@ -26,14 +28,6 @@ function AboutMe() {
       <Helmet>
       <title>Joshua Langner WebDev | About Me</title>
       <meta name="description" content="I am a software engineer with a background in technical support, sales, and leadership in the electronics and cellular industry"/>
-      <link rel="icon" type="image/x-icon" href="./favicon.png"/>
-      <meta property="og:title" content="Joshua Langner | About ME"/>
-      <meta property="og:url" content="https://joshua-langner.com/portfolio"/>
-      <meta property="og:type" content="portfolio"/>
-      <meta property="og:description" content="I am a software engineer with a background in technical support, sales, and leadership in the electronics and cellular industry"/>
-      <meta property="og:image" content="https://joshua-langner.com/static/media/aboutme.aa908ccf15b4894a31e4.png"/>
-      <meta property="og:image:height" content="1200"/>
-      <meta property="og:image:width" content="1200"/>
       </Helmet>
             <NavLink to='/'> <img src={home} alt="navigate home" className='icon' id='#top'/> </NavLink>
       <img src={header} alt="headshot and title Joshua Langner Software engineer" className='header_logo'/>
@@ -65,6 +59,7 @@ function AboutMe() {
         <div className='skills_container'>
           <div className='skill_list'>
             <h3 className='skill_header'>Languages</h3>
+            <p className='skill'>Ruby</p>
             <p className='skill'>JavaScript</p>
             <p className='skill'>TypeScript</p>
             <p className='skill'>Python</p>
@@ -73,21 +68,19 @@ function AboutMe() {
           </div>
           <div className='skill_list'>
             <h3 className='skill_header'>Frontend</h3>
+            <p className='skill'>Rails</p>
             <p className='skill'>React.Js</p>
-            <p className='skill'>Vue.Js</p>
             <p className='skill'>Responsive Design</p>
             <p className='skill'>ADA Accessible Design</p>
-            <p className='skill'>Search Engine Optimization (SEO)</p>
+            <p className='skill'>SEO</p>
           </div>
           <div className='skill_list'>
             <h3 className='skill_header'>Backend</h3>
             <p className='skill'>PostgresQL</p>
             <p className='skill'>MongoDB</p>
-            <p className='skill'>Django</p>
             <p className='skill'>Express.Js</p>
             <p className='skill'>Node.Js</p>
             <p className='skill'>REST API</p>
-            <p className='skill'>JWT Authentication</p>
           </div>
           <div className='skill_list'>
             <h3 className='skill_header'>Creative Skills</h3>
@@ -115,14 +108,9 @@ function AboutMe() {
         <p className='continuing_ed_attribute'><a href='https://www.codecademy.com/learn/paths/data-science-foundations'>CodeCademy</a></p>
         </div>
         <div className='continuing_ed'>
-        <p className='continuing_ed_subject'>Search Engine Optimization</p>
+        <p className='continuing_ed_subject'>Complete Ruby on Rails Developer Course</p>
         <p className='continuing_ed_attribute'>Online Course</p>
-        <p className='continuing_ed_attribute'><a href='https://app.hubspot.com/academy/23941934/tracks/25/1006819/3609'>HubSpot Academy</a></p>
-        </div>
-        <div className='continuing_ed'>
-        <p className='continuing_ed_subject'>Color Theory and Design</p>
-        <p className='continuing_ed_attribute'>Online Course</p>
-        <p className='continuing_ed_attribute'><a href='https://www.codecademy.com/learn/learn-color-design'>CodeCademy</a></p>
+        <p className='continuing_ed_attribute'><a href='https://www.udemy.com/course/the-complete-ruby-on-rails-developer-course/learn/lecture/3862422?start=0#overview'>Udemy</a></p>
         </div>
         </div>
         <div className='skills_container'>
@@ -130,9 +118,10 @@ function AboutMe() {
           <img className='small_logo' src={css} alt="c.s.s. 3" />
           <img className='small_logo' src={javascript} alt="javascript" />
           <img className='small_logo' src={typescript} alt="typescript" />
-          <img className='small_logo' src={python} alt="python" />
           <img className='small_logo' src={reactLogo} alt="react" />
-          <img className='small_logo' src={vue} alt="vue" />
+          <img className='small_logo' src={ruby} alt="ruby" />
+          <img className='small_logo' src={rails} alt="rails" />
+          {/* <img className='small_logo' src={python} alt="python" /> */}
           <img className='small_logo' src={mongodb} alt="mongo d.b." />
           <img className='small_logo' src={psql} alt="postgres s.q.l." />
           <img className='small_logo' src={node} alt="node j.s." />

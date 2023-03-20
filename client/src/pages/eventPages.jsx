@@ -11,14 +11,6 @@ function EventPages() {
       <Helmet>
       <title>Joshua Langner WebDev | Event Pages</title>
       <meta name="description" content="Joshua Langner WebDev has created a custom service that simplifies the process by providing you with a high-quality, fully customizable website that reflects your personal style and creates cohesion between all of your wedding elements."/>
-      <link rel="icon" type="image/x-icon" href="./favicon.png"/>
-      <meta property="og:title" content="Joshua Langner | Event Pages"/>
-      <meta property="og:url" content="https://joshua-langner.com/event-pages"/>
-      <meta property="og:type" content="website"/>
-      <meta property="og:description" content="For whatever occasion you are celebrating, congratulations! It is your big day, and you deserve for it to be simple and enjoyable!"/>
-      <meta property="og:image" content="https://joshua-langner.com/static/media/portfolio_header.7028bd0271055564e18a.png"/>
-      <meta property="og:image:height" content="1200"/>
-      <meta property="og:image:width" content="1200"/>
       </Helmet>
       <NavLink to='/'> <img src={home} alt="navigate home" className='icon'/> </NavLink>
       <img src={header} alt="wedding and event pages development service" className='header_logo'/>

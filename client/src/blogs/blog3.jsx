@@ -17,16 +17,9 @@ function Blog3() {
   return (
     <div className="blog">
       <Helmet>
-      <title>ADHD Brain | Working from Home</title>
-      <meta name="description" content="6 Game Changing Tricks that Helped Me Conquer Working From Home with ADHD"/>
-      <link rel="icon" type="image/x-icon" href="./favicon.png"/>
-      <meta property="og:title" content="ADHD Brain | Working from Home"/>
-      <meta property="og:url" content="https://joshua-langner.com/blogs/adhd-working-from-home"/>
-      <meta property="og:type" content="article"/>
-      <meta property="og:description" content="6 Game Changing Tricks that Helped Me Conquer Working From Home with ADHD"/>
-      <meta property="og:image" content="http://localhost:3000/static/media/adhd-header1.8cc5a24ce649d88fde39.png"/>
-      <meta property="og:image:height" content="1200"/>
-      <meta property="og:image:width" content="1200"/>
+        <title>ADHD Brain | Working from Home</title>
+        <meta name="description" content="6 Game Changing Tricks that Helped Me Conquer Working From Home with ADHD"/>
+        <meta name="title" content="ADHD Brain | Working from Home"/>
       </Helmet>
       <div className="blog_header_container">
         <h1 className='blog_header'>ADHD Brain | Working from Home</h1>
@@ -99,7 +92,7 @@ function Blog3() {
         <p className="blog_content"><em>If you have any groups that you would like to recommend, let me know. I will update this post to include them.</em></p>
         <p className="page_break">. . .</p>
         <p className='blog_content'>Now, I know that every brain is different, and all of these might not be for everyone, and that is okay. These are just some of the things that have been helpful for me. If you try these out, I would love to hear how they worked for you. I would also love to hear some of your own tips and tricks for working from home with ADHD. You can comment below or contact me by dropping a message on <a href='https://joshua-langner.com'>My Website</a>.</p>
-        <p className="disclosure">When you buy something using the links in my stories, I may earn a small commission from the Amazon Affiliates program. I only link to products that I have purchaced and love. Learn more <a href="https://affiliate-program.amazon.com/help/node/topic/GRXPHT8U84RAYDXZ"><b>here</b></a>.</p>
+        <p className="disclosure">When you buy something using the links in my stories, I may earn a small commission from the Amazon Affiliates program. I only link to products that I have purchased and love. Learn more <a href="https://affiliate-program.amazon.com/help/node/topic/GRXPHT8U84RAYDXZ"><b>here</b></a>.</p>
         <div className="share_container">
           <h3 className="share_header">Like this content? Share it here!</h3>
           <div className="icon_container">

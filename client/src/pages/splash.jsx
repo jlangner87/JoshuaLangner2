@@ -11,18 +11,6 @@ function Splash() {
 
   return (
     <div className="page">
-      <Helmet>
-      <title>Joshua Langner WebDev | Website Development</title>
-      <meta name="description" content="Looking to have a custom website built? Joshua Langner WebDev follows accessibility guidelines, so that your website is accessible to everyone. We also implement SEO practices to help your website rank well on Google."/>
-      <link rel="icon" type="image/x-icon" href="./favicon.png"/>
-      <meta property="og:title" content="Joshua Langner | WebDev"/>
-      <meta property="og:url" content="https://joshua-langner.com"/>
-      <meta property="og:type" content="website"/>
-      <meta property="og:description" content="Blog | Services | Portfolio"/>
-      <meta property="og:image" content="https://joshua-langner.com/static/media/banner2.d18ba6118ad684d18222.png"/>
-      <meta property="og:image:height" content="1200"/>
-      <meta property="og:image:width" content="1200"/>
-      </Helmet>
       <img src={header} alt="octopus in curly braces logo. joshua langner web developer" className='splash_header_logo'/>
       <div className='splash_container' alt='mac os terminal window'>
         <div className='terminal_bar'>
