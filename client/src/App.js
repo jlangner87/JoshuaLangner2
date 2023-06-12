@@ -21,6 +21,8 @@ import Flashcards from './pages/project_pages/flashcards'
 import ShopSpencer from './pages/project_pages/shopping'
 import Modmin from './pages/project_pages/modmin'
 import Tattoo from './pages/project_pages/amyross'
+import WeddingSample from './pages/project_pages/weddings'
+import RorRepo from './pages/project_pages/ror'
 // Blogs
 import Blog1 from './blogs/hashlink'
 import Blog2 from './blogs/image-slideshow'
@@ -50,6 +52,9 @@ function App() {
         <Route path="/portfolio/shop-spencer" element={<ShopSpencer />} />
         <Route path="/portfolio/moderator-app" element={<Modmin />} />
         <Route path="/portfolio/tattoo" element={<Tattoo />} />
+        <Route path="/portfolio/wedding-sample" element={<WeddingSample />} />
+        <Route path="/portfolio/ROR-repo" element={<RorRepo />} />
+
         {/* Blogs */}
         <Route path="/blogs/adhd-working-from-home" element={<Blog3 />} />
       </Routes>

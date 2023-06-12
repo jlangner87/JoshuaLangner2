@@ -60,7 +60,7 @@ function Recipes() {
         <NavLink to='/portfolio/alice-python'>
           <img src={previous} alt="previous project icon" className='project_nav_icon'/>
         </NavLink>
-        <NavLink to='/portfolio/tattoo'>
+        <NavLink to='/portfolio/ROR-repo'>
           <img src={next} alt="previous project icon" className='project_nav_icon'/>
         </NavLink>
 
